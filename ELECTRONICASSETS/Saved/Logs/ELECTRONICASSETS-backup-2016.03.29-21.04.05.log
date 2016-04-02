@@ -1,0 +1,971 @@
+﻿Log file open, 03/29/16 17:23:20
+LogInit:Display: Running engine for game: ELECTRONICASSETS
+LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
+LogInit: API Version: 2455222
+LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
+LogInit: Compiled with Visual C++: 18.00.21005.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++depot+UE4-Releases+4.7
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
+LogInit: Rocket: 1
+[2016.03.29-23.23.20:577][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2016.03.29-23.23.20:701][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.03.29-23.23.20:978][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.03.29-23.23.21:216][  0]LogInit: Object subsystem initialized
+[2016.03.29-23.23.21:309][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2016.03.29-23.23.21:309][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.03.29-23.23.21:309][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2016.03.29-23.23.21:309][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.03.29-23.23.21:309][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2016.03.29-23.23.21:309][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.03.29-23.23.21:352][  0]LogInit: Selected Device Profile: [Windows]
+[2016.03.29-23.23.21:360][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.03.29-23.23.21:453][  0]LogInit: Computer: ISOQA
+[2016.03.29-23.23.21:453][  0]LogInit: User: 3c0z
+[2016.03.29-23.23.21:453][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.03.29-23.23.21:453][  0]LogInit: High frequency timer resolution =2.539082 MHz
+[2016.03.29-23.23.21:453][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx) Virtual=8192.0GB
+[2016.03.29-23.23.21:454][  0]LogMemory: Platform Memory Stats for Windows
+[2016.03.29-23.23.21:454][  0]LogMemory: Process Physical Memory: 46.68 MB used, 46.68 MB peak
+[2016.03.29-23.23.21:454][  0]LogMemory: Process Virtual Memory: 25.05 MB used, 25.05 MB peak
+[2016.03.29-23.23.21:454][  0]LogMemory: Physical Memory: 2563.50 MB used, 4094.49 MB total
+[2016.03.29-23.23.21:454][  0]LogMemory: Virtual Memory: 278.32 MB used, 8388608.00 MB total
+[2016.03.29-23.23.21:788][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 750 Ti (Feature Level 11_0)
+[2016.03.29-23.23.21:788][  0]LogD3D11RHI: Adapter has 1993MB of dedicated video memory, 0MB of dedicated system memory, and 1791MB of shared system memory, 1 output[s]
+[2016.03.29-23.23.21:788][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.03.29-23.23.21:806][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.03.29-23.23.21:834][  0]LogD3D11RHI: Async texture creation enabled
+[2016.03.29-23.23.23:822][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('es') localization data will be used.
+[2016.03.29-23.23.24:504][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
+[2016.03.29-23.23.24:504][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
+Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
+[2016.03.29-23.23.25:010][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.03.29-23.23.47:815][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.29-23.23.51:930][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.29-23.23.52:269][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.03.29-23.23.52:939][  0]LogDerivedDataCache: Loaded boot cache 0.65s 39MB C:/Users/3c0z/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2016.03.29-23.23.52:940][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/3c0z/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2016.03.29-23.23.52:940][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.03.29-23.23.52:940][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.03.29-23.23.53:585][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.03.29-23.23.53:620][  0]LogDerivedDataCache: Using Local data cache path C:/Users/3c0z/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.03.29-23.24.00:920][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.03.29-23.24.00:920][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.03.29-23.24.05:587][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.03.29-23.24.06:226][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2016.03.29-23.24.44:399][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.03.29-23.24.46:209][  0]SourceControl: Info Source control is disabled
+[2016.03.29-23.24.46:238][  0]SourceControl: Info Source control is disabled
+[2016.03.29-23.24.46:239][  0]SourceControl: Info Source control is disabled
+[2016.03.29-23.24.46:239][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2016.03.29-23.24.46:239][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2016.03.29-23.24.46:282][  0]SourceControl: Info Source control is disabled
+[2016.03.29-23.24.48:649][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2016.03.29-23.24.48:649][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2016.03.29-23.24.49:653][  0]LogEngine: Initializing Engine...
+[2016.03.29-23.24.53:712][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.03.29-23.24.53:845][  0]LogInit: FAudioDevice initialized.
+[2016.03.29-23.24.54:556][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.03.29-23.24.54:934][  0]LogDerivedDataCache: Saved boot cache 0.29s 39MB C:/Users/3c0z/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2016.03.29-23.24.54:989][  0]LogInit: Texture streaming: Enabled
+[2016.03.29-23.24.56:318][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.03.29-23.24.56:318][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2016.03.29-23.24.56:318][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2016.03.29-23.24.56:318][  0]LogAnalytics: SetUserId f8d463004448e9bf9238c395a56aa488|6b2d3cb90e4040169396666e7dda91ad|be6a12fa-584f-40e9-9224-deb3c37dd44e
+[2016.03.29-23.24.56:385][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2016.03.29-23.24.56:602][  0]LogInit: Transaction tracking system initialized
+[2016.03.29-23.25.00:773][  0]BlueprintLog: New page: Editor Load
+[2016.03.29-23.25.01:643][  0]LogAssetRegistry: FAssetRegistry took 0.3266 seconds to start up
+[2016.03.29-23.25.01:646][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.03.29-23.25.09:800][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.29-23.25.12:362][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.03.29-23.25.13:930][  0]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.03.29-23.25.14:712][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2016.03.29-23.25.14:714][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2016.03.29-23.25.14:936][  0]LogConsoleResponse:Display: 
+[2016.03.29-23.25.17:689][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.03.29-23.25.18:992][  0]SourceControl: Info Source control is disabled
+[2016.03.29-23.25.19:026][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.29-23.25.19:084][  0]LightingResults: New page: Lighting Build
+[2016.03.29-23.25.19:555][  0]MapCheck: New page: Map Check
+[2016.03.29-23.25.19:556][  0]LightingResults: New page: Lighting Build
+[2016.03.29-23.25.19:832][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016888D60
+[2016.03.29-23.25.27:751][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.29-23.25.27:799][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.03.29-23.25.27:811][  0]Cmd: MAP CHECKDEP
+[2016.03.29-23.25.27:823][  0]MapCheck: New page: Untitled_1 - Mar 29, 2016, 11:25:27 AM
+[2016.03.29-23.25.28:607][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 795.009ms to complete.
+[2016.03.29-23.25.28:607][  0]LogFileHelpers: Loading map 'Template_Default' took 9.594
+[2016.03.29-23.25.31:386][  0]LogCollectionManager: Loaded 0 collections in 0.006094 seconds
+[2016.03.29-23.25.31:438][  0]LogContentBrowser: Native class hierarchy populated in 0.0506 seconds. Added 1696 classes and 261 folders.
+[2016.03.29-23.25.31:775][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0075 seconds. Added 1 classes and 2 folders.
+[2016.03.29-23.25.32:510][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.03.29-23.25.32:575][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2016.03.29-23.25.32:628][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.03.29-23.25.33:308][  0]LogLoad: Full Startup: 165.70 seconds (BP compile: 1.93 seconds)
+[2016.03.29-23.25.35:787][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2016.03.29-23.25.37:273][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x576 (Frame:3).
+[2016.03.29-23.25.54:204][ 23]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Texture'
+[2016.03.29-23.26.00:837][ 40]LogAssetRegistry: Asset discovery search completed in 59.5184 seconds
+[2016.03.29-23.29.16:061][871]Cmd: MAP LOAD FILE="../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Content/tv-prueba.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.03.29-23.29.16:122][871]LightingResults: New page: Lighting Build
+[2016.03.29-23.29.16:259][871]LoadErrors: New page: Loading map: tv-prueba.umap
+[2016.03.29-23.29.16:293][871]MapCheck: New page: Map Check
+[2016.03.29-23.29.16:293][871]LightingResults: New page: Lighting Build
+[2016.03.29-23.29.16:345][871]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D1DECA0
+[2016.03.29-23.29.18:646][871]LogWmfMedia:Error: Failed to create source object from URL for C:/Users/3c0z/Desktop/Nine_Inch_Nails_-_Copy_of_a_(VEVO_Presents).wmv
+[2016.03.29-23.29.22:661][871]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.03.29-23.29.22:695][871]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.29-23.29.22:769][871]Cmd: MAP CHECKDEP
+[2016.03.29-23.29.22:769][871]MapCheck: New page: tv-prueba - Mar 29, 2016, 11:29:22 AM
+[2016.03.29-23.29.23:064][871]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 295.137ms to complete.
+[2016.03.29-23.29.23:064][871]LogFileHelpers: Loading map 'tv-prueba' took 7.006
+[2016.03.29-23.29.33:075][147]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PantallaCurva00)
+[2016.03.29-23.29.40:439][295]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PantallaCurva00)
+[2016.03.29-23.29.41:492][314]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PantallaCurva00)
+[2016.03.29-23.29.41:804][317]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.03.29-23.29.42:245][324]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.03.29-23.29.42:343][324]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (PantallaCurva00)
+[2016.03.29-23.29.42:663][326]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PantallaCurva00)
+[2016.03.29-23.29.42:805][326]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.03.29-23.29.42:943][327]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.03.29-23.29.43:033][327]LogEditorViewport: Clicking on Actor (double click): StaticMeshActor (PantallaCurva00)
+[2016.03.29-23.29.43:230][328]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PantallaCurva00)
+[2016.03.29-23.29.43:322][328]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.03.29-23.29.43:570][330]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.03.29-23.29.44:356][344]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMeshComponent0)
+[2016.03.29-23.29.58:175][603]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.03.29-23.29.58:176][603]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 11:29:58 AM)
+[2016.03.29-23.29.58:186][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009424s)
+[2016.03.29-23.29.58:189][603]LogPlayLevel: PIE: World Init took: (0.002598s)
+[2016.03.29-23.29.58:189][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.012529s)
+[2016.03.29-23.29.58:339][603]LogWorld: Game class is 'GameMode'
+[2016.03.29-23.29.58:449][603]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.29-23.29.58:459][603]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-17.29.58
+[2016.03.29-23.29.58:495][603]LogWorld: Bringing up level for play took: 0.044576
+[2016.03.29-23.29.58:554][603]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 0.05
+[2016.03.29-23.30.22:365][211]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A0A2340
+[2016.03.29-23.31.00:045][904]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.03.29-23.31.00:045][904]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 11:31:00 AM)
+[2016.03.29-23.31.00:059][904]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007505s)
+[2016.03.29-23.31.00:061][904]LogPlayLevel: PIE: World Init took: (0.002308s)
+[2016.03.29-23.31.00:062][904]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.010291s)
+[2016.03.29-23.31.00:130][904]LogWorld: Game class is 'GameMode'
+[2016.03.29-23.31.00:136][904]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.29-23.31.00:150][904]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-17.31.00
+[2016.03.29-23.31.00:167][904]LogWorld: Bringing up level for play took: 0.029158
+[2016.03.29-23.31.00:186][904]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba -0.32
+[2016.03.29-23.31.10:696][167]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FD523E0
+[2016.03.29-23.31.12:459][203]LogEditorViewport: Clicking on Actor (LMB): Pantalla-Curva-A4A_C (Pantalla-Curva-A4A2)
+[2016.03.29-23.31.20:378][359]MapCheck: New page: Map Check
+[2016.03.29-23.31.20:484][359]LightingResults: New page: Lighting Build - Mar 29, 2016, 11:31:20 AM
+[2016.03.29-23.31.40:760][359]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.03.29-23.31.40:760][359]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.03.29-23.31.40:760][359]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.03.29-23.31.40:760][359]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.03.29-23.31.40:760][359]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.03.29-23.31.40:760][359]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.03.29-23.31.42:713][359]LogEditorBuildUtils: Build time 0:00:22
+[2016.03.29-23.31.43:043][361]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer tv-screen_Mat, compiling. 
+[2016.03.29-23.31.43:124][361]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer tv-screen_Mat, compiling. 
+[2016.03.29-23.31.43:437][362]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer glass_top, compiling. 
+[2016.03.29-23.31.43:489][362]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer glass_top, compiling. 
+[2016.03.29-23.32.20:021][394]LightingResults:Error: Error Pantalla-Curva-A4A Object has overlapping UVs.
+[2016.03.29-23.32.20:021][394]LightingResults: Info Pantalla-Curva-A4A Lightmap UV are overlapping by 7.3%. Please adjust content - Enable Error Coloring to visualize.
+[2016.03.29-23.32.21:045][397]LightingResults:Error: Error PantallaCurva01 Object has overlapping UVs.
+[2016.03.29-23.32.21:045][397]LightingResults: Info PantallaCurva01 Lightmap UV are overlapping by 3.6%. Please adjust content - Enable Error Coloring to visualize.
+[2016.03.29-23.32.22:085][400]LightingResults:Error: Error PantallaCurva02 Object has overlapping UVs.
+[2016.03.29-23.32.22:085][400]LightingResults: Info PantallaCurva02 Lightmap UV are overlapping by 4.6%. Please adjust content - Enable Error Coloring to visualize.
+[2016.03.29-23.32.25:497][410]LightingResults:Error: Error mpm_F19 Object has overlapping UVs.
+[2016.03.29-23.32.25:497][410]LightingResults: Info mpm_F19 Lightmap UV are overlapping by 22.8%. Please adjust content - Enable Error Coloring to visualize.
+[2016.03.29-23.32.26:165][412]Job is a success!
+[2016.03.29-23.32.27:544][413]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT)
+[2016.03.29-23.32.28:194][413]LogTexture:Display: Building textures: LQ_Lightmap_1_2 (DXT1)
+[2016.03.29-23.32.28:211][413]LogTexture:Display: Building textures: HQ_Lightmap1_2 (AutoDXT)
+[2016.03.29-23.32.28:216][413]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1)
+[2016.03.29-23.32.29:092][413]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (BGRA8)
+[2016.03.29-23.32.29:244][413]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (BGRA8)
+[2016.03.29-23.32.36:003][413]Lightmass on ISOQA: 15.2 sec total, 2.16 sec importing, 671 ms setup, 438 ms photons, 11.5 sec processing, 0 ms extra exporting [8/8 mappings]. Threads: 23.1 sec total, 7.92 sec processing.
+[2016.03.29-23.32.36:151][413]LogStaticLightingSystem: Illumination: 1:15 min (2.15 sec encoding lightmaps)
+[2016.03.29-23.32.36:151][413]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2016.03.29-23.32.36:151][413]LogStaticLightingSystem: Shadowmap texture memory: 0.7 MB (0.7 MB streaming, 0.0 MB non-streaming), 2 textures
+[2016.03.29-23.32.36:265][414]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.03.29-23.32.36:266][414]MapCheck: New page: tv-prueba - Mar 29, 2016, 11:32:36 AM
+[2016.03.29-23.32.36:268][414]MapCheck:Error: Error Keyboard___Magic_mouse_fbx_7 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.03.29-23.32.36:268][414]MapCheck:Warning: Warning Keyboard___Magic_mouse_fbx_7 Static mesh actor has NULL StaticMesh property 
+[2016.03.29-23.32.36:268][414]MapCheck:Warning: Warning Keyboard___Magic_mouse_fbx_7 Static mesh actor has NULL StaticMesh property 
+[2016.03.29-23.32.36:269][414]MapCheck:Error: Error Mouse_4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.03.29-23.32.36:269][414]MapCheck:Warning: Warning Mouse_4 Static mesh actor has NULL StaticMesh property 
+[2016.03.29-23.32.36:269][414]MapCheck:Warning: Warning Mouse_4 Static mesh actor has NULL StaticMesh property 
+[2016.03.29-23.32.36:276][414]MapCheck:Warning: Warning Pantalla-Curva-A4A_C_1 Static mesh actor has NULL StaticMesh property 
+[2016.03.29-23.32.36:724][414]MapCheck: Info Map check complete: 2 Error(s), 5 Warning(s), took 458.114ms to complete.
+[2016.03.29-23.33.10:187][622]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.03.29-23.33.10:187][622]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 11:33:10 AM)
+[2016.03.29-23.33.10:197][622]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008609s)
+[2016.03.29-23.33.10:201][622]LogPlayLevel: PIE: World Init took: (0.003095s)
+[2016.03.29-23.33.10:201][622]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.012184s)
+[2016.03.29-23.33.10:260][622]LogWorld: Game class is 'GameMode'
+[2016.03.29-23.33.10:264][622]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.29-23.33.10:276][622]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-17.33.10
+[2016.03.29-23.33.10:279][622]LogWorld: Bringing up level for play took: 0.012703
+[2016.03.29-23.33.10:287][622]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba -0.223
+[2016.03.29-23.33.24:686][  4]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FD536A0
+[2016.03.29-23.35.16:651][934]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0306 seconds. Added 1 classes and 2 folders.
+[2016.03.29-23.35.26:409][372]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.03.29-23.35.26:409][372]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 11:35:26 AM)
+[2016.03.29-23.35.26:418][372]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008192s)
+[2016.03.29-23.35.26:421][372]LogPlayLevel: PIE: World Init took: (0.002467s)
+[2016.03.29-23.35.26:421][372]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.011215s)
+[2016.03.29-23.35.26:484][372]LogWorld: Game class is 'GameMode'
+[2016.03.29-23.35.26:489][372]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.29-23.35.26:509][372]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-17.35.26
+[2016.03.29-23.35.26:511][372]LogWorld: Bringing up level for play took: 0.010770
+[2016.03.29-23.35.26:525][372]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 0.004
+[2016.03.29-23.35.47:107][766]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000039E956C0
+[2016.03.29-23.36.04:276][924]LogEditorViewport: Clicking on Actor (LMB): Pantalla-Curva-A4A_C (Pantalla-Curva-A4A2)
+[2016.03.29-23.36.07:708][955]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Blueprint'
+[2016.03.29-23.36.49:273][273]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.03.29-23.36.49:273][273]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 11:36:49 AM)
+[2016.03.29-23.36.49:293][273]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010662s)
+[2016.03.29-23.36.49:296][273]LogPlayLevel: PIE: World Init took: (0.002546s)
+[2016.03.29-23.36.49:296][273]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.013692s)
+[2016.03.29-23.36.49:417][273]LogWorld: Game class is 'GameMode'
+[2016.03.29-23.36.49:422][273]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.29-23.36.49:436][273]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-17.36.49
+[2016.03.29-23.36.49:439][273]LogWorld: Bringing up level for play took: 0.013319
+[2016.03.29-23.36.49:450][273]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 0.932
+[2016.03.29-23.37.03:563][482]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000786D3560
+[2016.03.29-23.37.07:174][514]LogRenderer:Warning: Reallocating scene render targets to support 1208x904 (Frame:4814).
+[2016.03.29-23.37.40:772][863]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.29-23.37.40:918][863]LogPlayLevel: [PIE] Compiling Pantalla-Curva-A4A before PIE...
+[2016.03.29-23.37.42:301][863]LogPlayLevel: PIE:  Blueprint regeneration took 1527 ms (1 blueprints)
+[2016.03.29-23.37.42:301][863]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 11:37:42 AM)
+[2016.03.29-23.37.42:322][863]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019374s)
+[2016.03.29-23.37.42:324][863]LogPlayLevel: PIE: World Init took: (0.002432s)
+[2016.03.29-23.37.42:325][863]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.022288s)
+[2016.03.29-23.37.42:592][863]LogWorld: Game class is 'GameMode'
+[2016.03.29-23.37.42:600][863]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.29-23.37.42:614][863]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-17.37.42
+[2016.03.29-23.37.42:618][863]LogWorld: Bringing up level for play took: 0.015677
+[2016.03.29-23.37.42:807][863]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 2.287
+[2016.03.29-23.37.43:142][863]LogRenderer:Warning: Reallocating scene render targets to support 1296x904 (Frame:5475).
+[2016.03.29-23.38.20:960][251]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006830FA60
+[2016.03.29-23.39.01:458][862]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.29-23.39.01:493][862]LogPlayLevel: [PIE] Compiling Pantalla-Curva-A4A before PIE...
+[2016.03.29-23.39.02:463][862]LogPlayLevel: PIE:  Blueprint regeneration took 1004 ms (1 blueprints)
+[2016.03.29-23.39.02:463][862]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 11:39:02 AM)
+[2016.03.29-23.39.02:474][862]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008742s)
+[2016.03.29-23.39.02:476][862]LogPlayLevel: PIE: World Init took: (0.002578s)
+[2016.03.29-23.39.02:476][862]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.011770s)
+[2016.03.29-23.39.02:646][862]LogWorld: Game class is 'GameMode'
+[2016.03.29-23.39.02:657][862]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.29-23.39.02:738][862]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-17.39.02
+[2016.03.29-23.39.02:768][862]LogWorld: Bringing up level for play took: 0.094052
+[2016.03.29-23.39.02:803][862]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 2.283
+[2016.03.29-23.40.27:554][234]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003597DB20
+[2016.03.29-23.40.31:690][274]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.03.29-23.40.31:691][274]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 11:40:31 AM)
+[2016.03.29-23.40.31:700][274]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007630s)
+[2016.03.29-23.40.31:703][274]LogPlayLevel: PIE: World Init took: (0.002239s)
+[2016.03.29-23.40.31:703][274]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.010231s)
+[2016.03.29-23.40.31:953][274]LogWorld: Game class is 'GameMode'
+[2016.03.29-23.40.31:958][274]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.29-23.40.31:969][274]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-17.40.31
+[2016.03.29-23.40.31:971][274]LogWorld: Bringing up level for play took: 0.011434
+[2016.03.29-23.40.32:080][274]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba -0.443
+[2016.03.29-23.40.34:874][304]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000066DA7880
+[2016.03.29-23.42.09:895][ 81]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.03.29-23.42.09:895][ 81]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 11:42:09 AM)
+[2016.03.29-23.42.09:905][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008565s)
+[2016.03.29-23.42.09:908][ 81]LogPlayLevel: PIE: World Init took: (0.002603s)
+[2016.03.29-23.42.09:908][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.011612s)
+[2016.03.29-23.42.10:711][ 81]LogWorld: Game class is 'GameMode'
+[2016.03.29-23.42.10:717][ 81]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.29-23.42.10:855][ 81]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-17.42.10
+[2016.03.29-23.42.10:857][ 81]LogWorld: Bringing up level for play took: 0.138190
+[2016.03.29-23.42.11:006][ 81]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 0.48
+[2016.03.29-23.42.55:400][481]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A471BC0
+[2016.03.29-23.42.58:809][525]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Texture'
+[2016.03.29-23.43.43:610][390]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tv-prueba" FILE="../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/tv-prueba_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.03.29-23.43.45:490][390]LogSavePackage: Save=740.831543ms
+[2016.03.29-23.43.45:490][390]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/tv-prueba_Auto12A4CEA794F035BA22BA870AF32B09C62.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/tv-prueba_Auto1.umap'
+[2016.03.29-23.43.45:632][390]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/tv-prueba' took 2.544
+[2016.03.29-23.43.45:632][390]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.544
+[2016.03.29-23.43.45:904][390]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A] ([1] browsable assets)...
+[2016.03.29-23.43.46:056][390]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A.Pantalla-Curva-A4A]
+[2016.03.29-23.43.46:056][390]OBJ SavePackage: Finished generating thumbnails for package [/Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A]
+[2016.03.29-23.43.49:371][390]LogSavePackage: Save=3124.800293ms
+[2016.03.29-23.43.49:375][390]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Pantalla-Curva-A4A_Auto109882A164EBA39B6088DE98F83A6630A.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A_Auto1.uasset'
+[2016.03.29-23.43.49:540][390]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SmartTVCurved/Texture/Nine_Inch_Nails_-_Copy_of_a__VEVO_Presents_] ([1] browsable assets)...
+[2016.03.29-23.43.49:540][390]OBJ SavePackage: Finished generating thumbnails for package [/Game/SmartTVCurved/Texture/Nine_Inch_Nails_-_Copy_of_a__VEVO_Presents_]
+[2016.03.29-23.43.50:303][390]LogSavePackage: Save=556.553894ms
+[2016.03.29-23.43.50:306][390]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Nine_Inch_Nails_-_Copy_of_a__VEVO_Presents__Auto1DEAC551D4BC6D9CD0EEE31999304EDB7.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/SmartTVCurved/Texture/Nine_Inch_Nails_-_Copy_of_a__VEVO_Presents__Auto1.uasset'
+[2016.03.29-23.43.50:487][390]LogFileHelpers: Auto-saving content packages took 4.854
+[2016.03.29-23.44.15:240][665]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.03.29-23.44.15:240][665]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 11:44:15 AM)
+[2016.03.29-23.44.15:256][665]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011381s)
+[2016.03.29-23.44.15:259][665]LogPlayLevel: PIE: World Init took: (0.002626s)
+[2016.03.29-23.44.15:259][665]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.014473s)
+[2016.03.29-23.44.15:440][665]LogWorld: Game class is 'GameMode'
+[2016.03.29-23.44.15:445][665]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.29-23.44.15:462][665]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-17.44.15
+[2016.03.29-23.44.15:483][665]LogWorld: Bringing up level for play took: 0.032550
+[2016.03.29-23.44.15:525][665]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 0.996
+[2016.03.29-23.45.33:222][762]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022EC25C0
+[2016.03.29-23.45.47:175][892]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2016.03.29-23.45.47:176][892]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Texture'
+[2016.03.29-23.45.54:018][950]LogContentBrowser: Native class hierarchy updated for 'ReferenceViewer' in 0.0355 seconds. Added 3 classes and 2 folders.
+[2016.03.29-23.46.45:155][455]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.03.29-23.46.45:156][455]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 11:46:45 AM)
+[2016.03.29-23.46.45:176][455]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010259s)
+[2016.03.29-23.46.45:180][455]LogPlayLevel: PIE: World Init took: (0.003849s)
+[2016.03.29-23.46.45:180][455]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.014668s)
+[2016.03.29-23.46.45:318][455]LogWorld: Game class is 'GameMode'
+[2016.03.29-23.46.45:324][455]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.29-23.46.45:339][455]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-17.46.45
+[2016.03.29-23.46.45:343][455]LogWorld: Bringing up level for play took: 0.014762
+[2016.03.29-23.46.45:363][455]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 0.829
+[2016.03.29-23.47.06:518][729]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000066DA6CA0
+[2016.03.29-23.47.11:026][773]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Blueprint'
+[2016.03.29-23.47.31:600][ 15]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Mesh'
+[2016.03.29-23.47.32:647][ 21]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Materials'
+[2016.03.29-23.47.34:213][ 39]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Mesh'
+[2016.03.29-23.47.38:920][ 86]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Texture'
+[2016.03.29-23.49.57:162][562]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.29-23.49.57:199][562]LogPlayLevel: [PIE] Compiling Pantalla-Curva-A4A before PIE...
+[2016.03.29-23.49.58:104][562]LogPlayLevel: PIE:  Blueprint regeneration took 942 ms (1 blueprints)
+[2016.03.29-23.49.58:105][562]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 11:49:58 AM)
+[2016.03.29-23.49.58:117][562]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010708s)
+[2016.03.29-23.49.58:131][562]LogPlayLevel: PIE: World Init took: (0.013826s)
+[2016.03.29-23.49.58:131][562]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.024957s)
+[2016.03.29-23.49.58:318][562]LogWorld: Game class is 'GameMode'
+[2016.03.29-23.49.58:329][562]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.29-23.49.58:366][562]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-17.49.58
+[2016.03.29-23.49.58:383][562]LogWorld: Bringing up level for play took: 0.050848
+[2016.03.29-23.49.58:595][562]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 2.056
+[2016.03.29-23.50.11:031][705]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022EC3F60
+[2016.03.29-23.52.44:017][486]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.29-23.52.44:044][486]LogPlayLevel: [PIE] Compiling Pantalla-Curva-A4A before PIE...
+[2016.03.29-23.52.44:335][486]LogBlueprint:Error: [compiler] Error This blueprint (self) is not a SceneComponent, therefore ' Target ' must have a connection.
+[2016.03.29-23.52.44:952][486]LogBlueprint:Warning: [compiler] Warning [1797.30] Compile of Pantalla-Curva-A4A failed. 1 Fatal Issue(s) 0 Warning(s) [in 862 ms]
+[2016.03.29-23.52.44:952][486]LogBlueprint:Warning: [compiler] Warning [1797.30] Compile of Pantalla-Curva-A4A failed. 1 Fatal Issue(s) 1 Warning(s) [in 0 ms]
+[2016.03.29-23.52.44:953][486]LogBlueprint:Warning: [compiler] Warning [1797.30] Compile of Pantalla-Curva-A4A failed. 1 Fatal Issue(s) 2 Warning(s) [in 0 ms]
+[2016.03.29-23.52.45:009][486]LogBlueprint:Warning: [compiler] Warning [1797.36] Compile of Pantalla-Curva-A4A failed. 1 Fatal Issue(s) 3 Warning(s) [in 55 ms]
+[2016.03.29-23.52.45:010][486]LogBlueprint:Warning: [compiler] Warning [1797.36] Compile of Pantalla-Curva-A4A failed. 1 Fatal Issue(s) 4 Warning(s) [in 0 ms]
+[2016.03.29-23.52.45:010][486]LogBlueprint:Warning: [compiler] Warning [1797.36] Compile of Pantalla-Curva-A4A failed. 1 Fatal Issue(s) 5 Warning(s) [in 0 ms]
+[2016.03.29-23.52.45:228][486]LogPlayLevel: PIE:  Blueprint regeneration took 1210 ms (1 blueprints)
+[2016.03.29-23.52.49:730][486]BlueprintLog: Info Blueprint Pantalla-Curva-A4A failed to compile
+[2016.03.29-23.53.49:923][ 75]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.29-23.53.49:959][ 75]LogPlayLevel: [PIE] Compiling Pantalla-Curva-A4A before PIE...
+[2016.03.29-23.53.50:837][ 75]LogPlayLevel: PIE:  Blueprint regeneration took 915 ms (1 blueprints)
+[2016.03.29-23.53.50:838][ 75]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 11:53:50 AM)
+[2016.03.29-23.53.50:864][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009761s)
+[2016.03.29-23.53.50:867][ 75]LogPlayLevel: PIE: World Init took: (0.002547s)
+[2016.03.29-23.53.50:867][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.012759s)
+[2016.03.29-23.53.51:017][ 75]LogWorld: Game class is 'GameMode'
+[2016.03.29-23.53.51:022][ 75]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.29-23.53.51:036][ 75]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-17.53.51
+[2016.03.29-23.53.51:039][ 75]LogWorld: Bringing up level for play took: 0.013861
+[2016.03.29-23.53.51:315][ 75]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 0.747
+[2016.03.29-23.54.00:733][149]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002A6C6840
+[2016.03.29-23.54.47:245][661]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.29-23.54.47:282][661]LogPlayLevel: [PIE] Compiling Pantalla-Curva-A4A before PIE...
+[2016.03.29-23.54.48:252][661]LogPlayLevel: PIE:  Blueprint regeneration took 1007 ms (1 blueprints)
+[2016.03.29-23.54.48:253][661]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 11:54:48 AM)
+[2016.03.29-23.54.48:309][661]LogPlayLevel: PIE: StaticDuplicateObject took: (0.012767s)
+[2016.03.29-23.54.48:318][661]LogPlayLevel: PIE: World Init took: (0.008638s)
+[2016.03.29-23.54.48:319][661]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.022067s)
+[2016.03.29-23.54.48:629][661]LogWorld: Game class is 'GameMode'
+[2016.03.29-23.54.48:634][661]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.29-23.54.48:706][661]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-17.54.48
+[2016.03.29-23.54.48:712][661]LogWorld: Bringing up level for play took: 0.075727
+[2016.03.29-23.54.48:865][661]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 2.318
+[2016.03.29-23.54.56:134][738]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000045C25DA0
+[2016.03.29-23.55.04:161][812]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (mpm_F19)
+[2016.03.29-23.55.05:618][821]Cmd: DELETE
+[2016.03.29-23.55.05:618][821]Cmd: ACTOR DELETE
+[2016.03.29-23.55.05:769][821]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.03.29-23.55.05:961][821]LogEditorActor: Deleted 1 Actors (0.204 secs)
+[2016.03.29-23.55.25:060][ 49]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.29-23.55.25:103][ 49]LogPlayLevel: [PIE] Compiling Pantalla-Curva-A4A before PIE...
+[2016.03.29-23.55.26:009][ 49]LogPlayLevel: PIE:  Blueprint regeneration took 949 ms (1 blueprints)
+[2016.03.29-23.55.26:010][ 49]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 11:55:26 AM)
+[2016.03.29-23.55.26:021][ 49]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009314s)
+[2016.03.29-23.55.26:027][ 49]LogPlayLevel: PIE: World Init took: (0.005458s)
+[2016.03.29-23.55.26:027][ 49]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.015205s)
+[2016.03.29-23.55.26:181][ 49]LogWorld: Game class is 'GameMode'
+[2016.03.29-23.55.26:186][ 49]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.29-23.55.26:202][ 49]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-17.55.26
+[2016.03.29-23.55.26:208][ 49]LogWorld: Bringing up level for play took: 0.019103
+[2016.03.29-23.55.26:439][ 49]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 1.87
+[2016.03.29-23.55.35:445][152]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FD714E0
+[2016.03.29-23.55.43:599][251]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.03.29-23.55.43:599][251]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 11:55:43 AM)
+[2016.03.29-23.55.43:610][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008505s)
+[2016.03.29-23.55.43:613][251]LogPlayLevel: PIE: World Init took: (0.003560s)
+[2016.03.29-23.55.43:614][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.012547s)
+[2016.03.29-23.55.43:798][251]LogWorld: Game class is 'GameMode'
+[2016.03.29-23.55.43:805][251]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.29-23.55.43:848][251]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-17.55.43
+[2016.03.29-23.55.43:852][251]LogWorld: Bringing up level for play took: 0.044255
+[2016.03.29-23.55.44:018][251]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba -0.533
+[2016.03.29-23.56.15:840][614]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000312B5300
+[2016.03.29-23.56.43:264][948]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tv-prueba" FILE="../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/tv-prueba_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.03.29-23.56.44:014][948]LogSavePackage: Save=570.334473ms
+[2016.03.29-23.56.44:014][948]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/tv-prueba_Auto2BE8F2A56400105BE9710FFA5D5422635.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/tv-prueba_Auto2.umap'
+[2016.03.29-23.56.44:099][948]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/tv-prueba' took 1.206
+[2016.03.29-23.56.44:099][948]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.206
+[2016.03.29-23.56.44:237][948]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A] ([1] browsable assets)...
+[2016.03.29-23.56.44:325][948]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A.Pantalla-Curva-A4A]
+[2016.03.29-23.56.44:325][948]OBJ SavePackage: Finished generating thumbnails for package [/Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A]
+[2016.03.29-23.56.48:099][948]LogSavePackage: Save=3549.461914ms
+[2016.03.29-23.56.48:109][948]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Pantalla-Curva-A4A_Auto268F2E36F49DF2434105521A56E70F4E4.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A_Auto2.uasset'
+[2016.03.29-23.56.48:200][948]LogFileHelpers: Auto-saving content packages took 4.102
+[2016.03.29-23.57.04:590][168]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.29-23.57.04:615][168]LogPlayLevel: [PIE] Compiling Pantalla-Curva-A4A before PIE...
+[2016.03.29-23.57.05:417][168]LogPlayLevel: PIE:  Blueprint regeneration took 827 ms (1 blueprints)
+[2016.03.29-23.57.05:417][168]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 11:57:05 AM)
+[2016.03.29-23.57.05:431][168]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011977s)
+[2016.03.29-23.57.05:435][168]LogPlayLevel: PIE: World Init took: (0.003672s)
+[2016.03.29-23.57.05:435][168]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.016396s)
+[2016.03.29-23.57.05:629][168]LogWorld: Game class is 'GameMode'
+[2016.03.29-23.57.05:634][168]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.29-23.57.05:646][168]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-17.57.05
+[2016.03.29-23.57.05:649][168]LogWorld: Bringing up level for play took: 0.011208
+[2016.03.29-23.57.05:841][168]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 1.29
+[2016.03.29-23.57.29:458][438]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000006830DD00
+[2016.03.29-23.57.49:262][575]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.03.29-23.57.49:263][575]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 11:57:49 AM)
+[2016.03.29-23.57.49:277][575]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008324s)
+[2016.03.29-23.57.49:281][575]LogPlayLevel: PIE: World Init took: (0.003732s)
+[2016.03.29-23.57.49:281][575]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.012729s)
+[2016.03.29-23.57.49:413][575]LogWorld: Game class is 'GameMode'
+[2016.03.29-23.57.49:420][575]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.29-23.57.49:433][575]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-17.57.49
+[2016.03.29-23.57.49:436][575]LogWorld: Bringing up level for play took: 0.013082
+[2016.03.29-23.57.49:676][575]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 1.124
+[2016.03.29-23.58.29:897][ 65]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000045C25C60
+[2016.03.30-00.02.03:916][659]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Blueprint'
+[2016.03.30-00.02.05:369][686]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Texture'
+[2016.03.30-00.03.10:976][171]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Materials'
+[2016.03.30-00.03.13:072][193]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2016.03.30-00.03.27:144][346]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Mesh'
+[2016.03.30-00.03.35:551][422]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.03.30-00.03.35:552][422]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 12:03:35 PM)
+[2016.03.30-00.03.35:571][422]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011440s)
+[2016.03.30-00.03.35:575][422]LogPlayLevel: PIE: World Init took: (0.003307s)
+[2016.03.30-00.03.35:575][422]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.015193s)
+[2016.03.30-00.03.35:748][422]LogWorld: Game class is 'GameMode'
+[2016.03.30-00.03.35:755][422]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.30-00.03.35:767][422]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-18.03.35
+[2016.03.30-00.03.35:771][422]LogWorld: Bringing up level for play took: 0.012695
+[2016.03.30-00.03.35:779][422]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 1.217
+[2016.03.30-00.03.58:907][788]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000066DA79C0
+[2016.03.30-00.06.20:249][950]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Texture'
+[2016.03.30-00.08.14:483][243]LogFactory: FactoryCreateBinary: MediaPlayer with MediaPlayerFactory (0 0 C:\Users\3c0z\Desktop\NIN.wmv)
+[2016.03.30-00.08.18:709][243]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2016.03.30-00.08.18:710][243]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Texture'
+[2016.03.30-00.08.19:553][244]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tv-prueba" FILE="../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/tv-prueba_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.03.30-00.08.20:038][244]LogSavePackage: Save=309.784790ms
+[2016.03.30-00.08.20:038][244]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/tv-prueba_Auto3032EC1FF4448C209DD93F19B3F4A25C6.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/tv-prueba_Auto3.umap'
+[2016.03.30-00.08.20:105][244]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/tv-prueba' took 0.790
+[2016.03.30-00.08.20:105][244]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.790
+[2016.03.30-00.08.20:195][244]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A] ([1] browsable assets)...
+[2016.03.30-00.08.20:260][244]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A.Pantalla-Curva-A4A]
+[2016.03.30-00.08.20:260][244]OBJ SavePackage: Finished generating thumbnails for package [/Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A]
+[2016.03.30-00.08.21:896][244]LogSavePackage: Save=1520.581787ms
+[2016.03.30-00.08.21:898][244]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Pantalla-Curva-A4A_Auto34C9E20494A82A2BD723368A3C70A4486.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A_Auto3.uasset'
+[2016.03.30-00.08.22:073][244]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SmartTVCurved/Texture/NIN] ([1] browsable assets)...
+[2016.03.30-00.08.22:073][244]OBJ SavePackage: Finished generating thumbnails for package [/Game/SmartTVCurved/Texture/NIN]
+[2016.03.30-00.08.22:267][244]LogSavePackage: Save=170.180405ms
+[2016.03.30-00.08.22:275][244]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/NIN_Auto3BACEA1034B66381F4935A084642FC649.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/SmartTVCurved/Texture/NIN_Auto3.uasset'
+[2016.03.30-00.08.22:314][244]LogFileHelpers: Auto-saving content packages took 2.209
+[2016.03.30-00.08.28:718][366]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Texture'
+[2016.03.30-00.08.34:337][474]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Texture'
+[2016.03.30-00.09.26:327][938]LogSavePackage: Save=1007.624390ms
+[2016.03.30-00.09.26:327][938]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Pantalla-Curva-A4AD94EEADA423EBD9D56CD74872AFBDBF9.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Content/SmartTVCurved/Blueprint/Pantalla-Curva-A4A.uasset'
+[2016.03.30-00.09.33:614][ 81]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.30-00.09.33:659][ 81]LogPlayLevel: [PIE] Compiling Pantalla-Curva-A4A before PIE...
+[2016.03.30-00.09.34:157][ 81]LogPlayLevel: PIE:  Blueprint regeneration took 542 ms (1 blueprints)
+[2016.03.30-00.09.34:157][ 81]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 12:09:34 PM)
+[2016.03.30-00.09.34:165][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006207s)
+[2016.03.30-00.09.34:168][ 81]LogPlayLevel: PIE: World Init took: (0.003236s)
+[2016.03.30-00.09.34:169][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.009835s)
+[2016.03.30-00.09.34:229][ 81]LogWorld: Game class is 'GameMode'
+[2016.03.30-00.09.34:232][ 81]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.30-00.09.34:250][ 81]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-18.09.34
+[2016.03.30-00.09.34:253][ 81]LogWorld: Bringing up level for play took: 0.018804
+[2016.03.30-00.09.34:257][ 81]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba -0.315
+[2016.03.30-00.10.38:000][590]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004A40D9E0
+[2016.03.30-00.10.52:579][839]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Materials'
+[2016.03.30-00.11.36:209][ 91]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Texture'
+[2016.03.30-00.13.02:147][877]LogMaterial: Missing cached shader map for material tv-screen_Mat, compiling. 
+[2016.03.30-00.13.02:354][877]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2016.03.30-00.13.02:608][877]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2016.03.30-00.13.02:612][877]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2016.03.30-00.13.02:613][877]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
+[2016.03.30-00.13.02:613][877]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
+[2016.03.30-00.13.02:649][877]LogMaterial: Missing cached shader map for material tv-screen_Mat, compiling. 
+[2016.03.30-00.13.02:674][877]LogMaterial: 0.002532 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.30-00.13.02:715][877]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.03.30-00.13.20:363][223]LogMaterial: Missing cached shader map for material tv-screen_Mat, compiling. 
+[2016.03.30-00.13.20:386][223]LogMaterial: 0.000349 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.30-00.13.20:423][223]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.03.30-00.13.35:057][552]LogMaterialEditor: Saving and Compiling material tv-screen_Mat
+[2016.03.30-00.13.46:113][552]LogMaterial: Missing cached shader map for material tv-screen_Mat, compiling. 
+[2016.03.30-00.13.46:295][552]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.30-00.13.46:548][552]LogMaterial: Missing cached shader map for material tv-screen_Mat, compiling. 
+[2016.03.30-00.13.46:794][552]LogMaterial: Missing cached shader map for material tv-screen_Mat, compiling. 
+[2016.03.30-00.13.46:845][552]LogMaterial: 0.003253 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.30-00.14.51:149][552]LogSavePackage: Save=778.488831ms
+[2016.03.30-00.14.51:150][552]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/tv-screen_Mat0935727049A65F18CFA10C9CF8EC8F89.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Content/SmartTVCurved/Texture/tv-screen_Mat.uasset'
+[2016.03.30-00.14.51:192][552]MaterialEditorStats: Info Base pass shader with static lighting: 96 instructions
+[2016.03.30-00.14.51:192][552]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 65 instructions
+[2016.03.30-00.14.51:193][552]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.30-00.14.51:193][552]MaterialEditorStats: Info Texture samplers: 4/16
+[2016.03.30-00.15.07:016][881]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.30-00.15.07:069][881]LogPlayLevel: [PIE] Compiling Pantalla-Curva-A4A before PIE...
+[2016.03.30-00.15.07:551][881]LogPlayLevel: PIE:  Blueprint regeneration took 534 ms (1 blueprints)
+[2016.03.30-00.15.07:551][881]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 12:15:07 PM)
+[2016.03.30-00.15.07:560][881]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007523s)
+[2016.03.30-00.15.07:563][881]LogPlayLevel: PIE: World Init took: (0.002716s)
+[2016.03.30-00.15.07:564][881]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.010871s)
+[2016.03.30-00.15.07:611][881]LogWorld: Game class is 'GameMode'
+[2016.03.30-00.15.07:616][881]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.30-00.15.07:628][881]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-18.15.07
+[2016.03.30-00.15.07:631][881]LogWorld: Bringing up level for play took: 0.012126
+[2016.03.30-00.15.07:640][881]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 1.056
+[2016.03.30-00.15.45:275][684]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004A40F380
+[2016.03.30-00.15.51:269][789]MapCheck: New page: Map Check
+[2016.03.30-00.15.51:317][789]LightingResults: New page: Lighting Build - Mar 29, 2016, 12:15:51 PM
+[2016.03.30-00.15.56:505][789]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2016.03.30-00.15.56:505][789]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2016.03.30-00.15.56:505][789]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2016.03.30-00.15.56:505][789]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2016.03.30-00.15.56:505][789]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2016.03.30-00.15.56:505][789]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2016.03.30-00.15.56:918][789]LogEditorBuildUtils: Build time 0:00:05
+[2016.03.30-00.15.56:933][789]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer tv-screen_Mat, compiling. 
+[2016.03.30-00.15.57:058][789]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer tv-screen_Mat, compiling. 
+[2016.03.30-00.16.10:761][811]LightingResults:Error: Error Pantalla-Curva-A4A Object has overlapping UVs.
+[2016.03.30-00.16.10:762][811]LightingResults: Info Pantalla-Curva-A4A Lightmap UV are overlapping by 7.3%. Please adjust content - Enable Error Coloring to visualize.
+[2016.03.30-00.16.11:448][813]LightingResults:Error: Error PantallaCurva01 Object has overlapping UVs.
+[2016.03.30-00.16.11:448][813]LightingResults: Info PantallaCurva01 Lightmap UV are overlapping by 3.6%. Please adjust content - Enable Error Coloring to visualize.
+[2016.03.30-00.16.12:805][817]LightingResults:Error: Error PantallaCurva02 Object has overlapping UVs.
+[2016.03.30-00.16.12:805][817]LightingResults: Info PantallaCurva02 Lightmap UV are overlapping by 4.6%. Please adjust content - Enable Error Coloring to visualize.
+[2016.03.30-00.16.13:781][820]Job is a success!
+[2016.03.30-00.16.14:495][821]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT)
+[2016.03.30-00.16.14:883][821]LogTexture:Display: Building textures: LQ_Lightmap_0_2 (DXT1)
+[2016.03.30-00.16.14:893][821]LogTexture:Display: Building textures: HQ_Lightmap0_2 (AutoDXT)
+[2016.03.30-00.16.14:900][821]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1)
+[2016.03.30-00.16.15:286][821]LogTexture:Display: Building textures: ShadowMapTexture2D_2 (BGRA8)
+[2016.03.30-00.16.15:412][821]LogTexture:Display: Building textures: ShadowMapTexture2D_3 (BGRA8)
+[2016.03.30-00.16.15:651][821]Lightmass on ISOQA: 10.1 sec total, 1.14 sec importing, 112 ms setup, 366 ms photons, 8.37 sec processing, 0 ms extra exporting [7/7 mappings]. Threads: 16.7 sec total, 5.44 sec processing.
+[2016.03.30-00.16.15:702][821]LogStaticLightingSystem: Illumination: 24.0 sec (1.02 sec encoding lightmaps)
+[2016.03.30-00.16.15:702][821]LogStaticLightingSystem: Lightmap texture memory:  0.3 MB (0.3 MB streaming, 0.0 MB non-streaming), 4 textures
+[2016.03.30-00.16.15:702][821]LogStaticLightingSystem: Shadowmap texture memory: 1.4 MB (1.4 MB streaming, 0.0 MB non-streaming), 4 textures
+[2016.03.30-00.16.15:802][822]Cmd: MAP CHECK NOTIFYRESULTS
+[2016.03.30-00.16.15:802][822]MapCheck: New page: tv-prueba - Mar 29, 2016, 12:16:15 PM
+[2016.03.30-00.16.15:804][822]MapCheck:Error: Error Keyboard___Magic_mouse_fbx_7 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.03.30-00.16.15:804][822]MapCheck:Warning: Warning Keyboard___Magic_mouse_fbx_7 Static mesh actor has NULL StaticMesh property 
+[2016.03.30-00.16.15:804][822]MapCheck:Warning: Warning Keyboard___Magic_mouse_fbx_7 Static mesh actor has NULL StaticMesh property 
+[2016.03.30-00.16.15:805][822]MapCheck:Error: Error Mouse_4 Component is a static type but has invalid lightmap settings!  Indirect lighting will be black.  Common causes are lightmap resolution of 0, LightmapCoordinateIndex out of bounds. 
+[2016.03.30-00.16.15:805][822]MapCheck:Warning: Warning Mouse_4 Static mesh actor has NULL StaticMesh property 
+[2016.03.30-00.16.15:805][822]MapCheck:Warning: Warning Mouse_4 Static mesh actor has NULL StaticMesh property 
+[2016.03.30-00.16.16:372][822]MapCheck: Info Map check complete: 2 Error(s), 4 Warning(s), took 569.718ms to complete.
+[2016.03.30-00.17.23:101][558]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.03.30-00.17.23:101][558]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 12:17:23 PM)
+[2016.03.30-00.17.23:110][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007502s)
+[2016.03.30-00.17.23:112][558]LogPlayLevel: PIE: World Init took: (0.002637s)
+[2016.03.30-00.17.23:113][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.010617s)
+[2016.03.30-00.17.23:177][558]LogWorld: Game class is 'GameMode'
+[2016.03.30-00.17.23:183][558]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.30-00.17.23:196][558]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-18.17.23
+[2016.03.30-00.17.23:199][558]LogWorld: Bringing up level for play took: 0.013799
+[2016.03.30-00.17.23:291][558]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 0.703
+[2016.03.30-00.17.40:323][857]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030DFA480
+[2016.03.30-00.20.22:343][788]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
+[2016.03.30-00.20.22:346][788]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Texture'
+[2016.03.30-00.20.24:684][816]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tv-prueba" FILE="../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/tv-prueba_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.03.30-00.20.25:113][816]LogSavePackage: Save=282.718323ms
+[2016.03.30-00.20.25:114][816]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/tv-prueba_Auto4510DF9B747B0CFB8753A389F1B75F477.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/tv-prueba_Auto4.umap'
+[2016.03.30-00.20.25:144][816]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/tv-prueba' took 0.706
+[2016.03.30-00.20.25:144][816]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.706
+[2016.03.30-00.20.25:204][816]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A] ([1] browsable assets)...
+[2016.03.30-00.20.25:289][816]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A.Pantalla-Curva-A4A]
+[2016.03.30-00.20.25:289][816]OBJ SavePackage: Finished generating thumbnails for package [/Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A]
+[2016.03.30-00.20.27:092][816]LogSavePackage: Save=1700.321167ms
+[2016.03.30-00.20.27:094][816]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Pantalla-Curva-A4A_Auto45A3F64064E47AD1506A6A2BF7F54851A.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A_Auto4.uasset'
+[2016.03.30-00.20.27:199][816]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SmartTVCurved/Texture/NIN_Wav] ([1] browsable assets)...
+[2016.03.30-00.20.27:240][816]OBJ SavePackage:     Rendered thumbnail for [MediaSoundWave /Game/SmartTVCurved/Texture/NIN_Wav.NIN_Wav]
+[2016.03.30-00.20.27:240][816]OBJ SavePackage: Finished generating thumbnails for package [/Game/SmartTVCurved/Texture/NIN_Wav]
+[2016.03.30-00.20.27:480][816]LogSavePackage: Save=227.142334ms
+[2016.03.30-00.20.27:481][816]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/NIN_Wav_Auto4987C08E84A05A0C65553A3823CE90207.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/SmartTVCurved/Texture/NIN_Wav_Auto4.uasset'
+[2016.03.30-00.20.27:575][816]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SmartTVCurved/Texture/NIN_Tex] ([1] browsable assets)...
+[2016.03.30-00.20.27:609][816]OBJ SavePackage:     Rendered thumbnail for [MediaTexture /Game/SmartTVCurved/Texture/NIN_Tex.NIN_Tex]
+[2016.03.30-00.20.27:609][816]OBJ SavePackage: Finished generating thumbnails for package [/Game/SmartTVCurved/Texture/NIN_Tex]
+[2016.03.30-00.20.27:827][816]LogSavePackage: Save=183.508057ms
+[2016.03.30-00.20.27:829][816]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/NIN_Tex_Auto495E2911D480FC379CD6BBC936166B6D6.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/SmartTVCurved/Texture/NIN_Tex_Auto4.uasset'
+[2016.03.30-00.20.27:862][816]LogFileHelpers: Auto-saving content packages took 2.719
+[2016.03.30-00.28.55:390][984]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.03.30-00.28.55:791][984]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2016.03.30-00.28.56:260][984]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2016.03.30-00.28.56:261][984]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2016.03.30-00.28.56:262][984]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
+[2016.03.30-00.28.56:262][984]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
+[2016.03.30-00.28.56:285][984]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2016.03.30-00.28.56:349][984]LogMaterial: 0.007810 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.30-00.28.56:521][984]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.03.30-00.30.15:746][241]MaterialEditorStats: Info Base pass shader with static lighting: 66 instructions
+[2016.03.30-00.30.15:747][241]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2016.03.30-00.30.15:747][241]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.30-00.30.15:747][241]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.03.30-00.33.24:417][607]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.03.30-00.33.24:418][607]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 12:33:24 PM)
+[2016.03.30-00.33.24:431][607]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011445s)
+[2016.03.30-00.33.24:433][607]LogPlayLevel: PIE: World Init took: (0.002400s)
+[2016.03.30-00.33.24:434][607]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.014345s)
+[2016.03.30-00.33.24:585][607]LogWorld: Game class is 'GameMode'
+[2016.03.30-00.33.24:591][607]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.30-00.33.24:632][607]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-18.33.24
+[2016.03.30-00.33.24:639][607]LogWorld: Bringing up level for play took: 0.041662
+[2016.03.30-00.33.24:672][607]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 0.055
+[2016.03.30-00.33.51:302][933]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030FFB100
+[2016.03.30-00.33.51:304][933]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003969C5E0
+[2016.03.30-00.33.57:048][978]LogEditorViewport: Clicking on Actor (LMB): Pantalla-Curva-A4A_C (Pantalla-Curva-A4A2)
+[2016.03.30-00.34.34:665][319]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.30-00.34.34:696][319]LogPlayLevel: [PIE] Compiling Pantalla-Curva-A4A before PIE...
+[2016.03.30-00.34.35:734][319]LogPlayLevel: PIE:  Blueprint regeneration took 1068 ms (1 blueprints)
+[2016.03.30-00.34.35:735][319]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 12:34:35 PM)
+[2016.03.30-00.34.35:771][319]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029327s)
+[2016.03.30-00.34.35:774][319]LogPlayLevel: PIE: World Init took: (0.002710s)
+[2016.03.30-00.34.35:774][319]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.032490s)
+[2016.03.30-00.34.35:903][319]LogWorld: Game class is 'GameMode'
+[2016.03.30-00.34.35:913][319]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.30-00.34.35:945][319]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-18.34.35
+[2016.03.30-00.34.35:948][319]LogWorld: Bringing up level for play took: 0.032802
+[2016.03.30-00.34.36:107][319]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 1.488
+[2016.03.30-00.34.47:381][432]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CE700E0
+[2016.03.30-00.35.13:687][697]LogEditorViewport: Clicking on Actor (LMB): Pantalla-Curva-A4A_C (Pantalla-Curva-A4A2)
+[2016.03.30-00.35.52:053][ 57]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PantallaCurva00)
+[2016.03.30-00.36.24:532][357]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.30-00.36.24:557][357]LogPlayLevel: [PIE] Compiling Pantalla-Curva-A4A before PIE...
+[2016.03.30-00.36.25:589][357]LogPlayLevel: PIE:  Blueprint regeneration took 1056 ms (1 blueprints)
+[2016.03.30-00.36.25:589][357]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 12:36:25 PM)
+[2016.03.30-00.36.25:601][357]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009268s)
+[2016.03.30-00.36.25:603][357]LogPlayLevel: PIE: World Init took: (0.002501s)
+[2016.03.30-00.36.25:604][357]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.012227s)
+[2016.03.30-00.36.25:789][357]LogWorld: Game class is 'GameMode'
+[2016.03.30-00.36.25:803][357]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.30-00.36.25:820][357]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-18.36.25
+[2016.03.30-00.36.25:823][357]LogWorld: Bringing up level for play took: 0.017749
+[2016.03.30-00.36.26:122][357]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 1.496
+[2016.03.30-00.38.23:636][832]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000030C6EFC0
+[2016.03.30-00.39.02:522][ 44]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Floor)
+[2016.03.30-00.39.28:464][295]Cmd: SELECT NONE
+[2016.03.30-00.39.29:597][306]LogEditorViewport: Clicking on Actor (LMB): Pantalla-Curva-A4A_C (Pantalla-Curva-A4A2)
+[2016.03.30-00.40.23:340][983]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.30-00.40.23:361][983]LogPlayLevel: [PIE] Compiling Pantalla-Curva-A4A before PIE...
+[2016.03.30-00.40.24:346][983]LogPlayLevel: PIE:  Blueprint regeneration took 1005 ms (1 blueprints)
+[2016.03.30-00.40.24:346][983]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 12:40:24 PM)
+[2016.03.30-00.40.24:356][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008791s)
+[2016.03.30-00.40.24:359][983]LogPlayLevel: PIE: World Init took: (0.002477s)
+[2016.03.30-00.40.24:359][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.011735s)
+[2016.03.30-00.40.24:501][983]LogWorld: Game class is 'GameMode'
+[2016.03.30-00.40.24:507][983]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.30-00.40.24:547][983]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-18.40.24
+[2016.03.30-00.40.24:553][983]LogWorld: Bringing up level for play took: 0.023390
+[2016.03.30-00.40.24:714][983]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 2.075
+[2016.03.30-00.41.25:813][ 67]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000008212DDA0
+[2016.03.30-00.41.57:578][405]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.03.30-00.41.57:578][405]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 12:41:57 PM)
+[2016.03.30-00.41.57:589][405]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008815s)
+[2016.03.30-00.41.57:591][405]LogPlayLevel: PIE: World Init took: (0.002379s)
+[2016.03.30-00.41.57:592][405]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.011643s)
+[2016.03.30-00.41.57:693][405]LogWorld: Game class is 'GameMode'
+[2016.03.30-00.41.57:699][405]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.30-00.41.57:711][405]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-18.41.57
+[2016.03.30-00.41.57:714][405]LogWorld: Bringing up level for play took: 0.012209
+[2016.03.30-00.41.57:724][405]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 1.093
+[2016.03.30-00.42.20:432][696]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003DB8C7C0
+[2016.03.30-00.42.20:448][696]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022C3CD60
+[2016.03.30-00.42.20:450][696]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003C4EB560
+[2016.03.30-00.43.13:206][239]Cmd: SELECT NONE
+[2016.03.30-00.43.14:286][253]Cmd: SELECT NONE
+[2016.03.30-00.43.29:375][439]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Blueprint'
+[2016.03.30-00.44.02:452][767]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.30-00.44.02:481][767]LogPlayLevel: [PIE] Compiling Pantalla-Curva-A4A before PIE...
+[2016.03.30-00.44.03:527][767]LogPlayLevel: PIE:  Blueprint regeneration took 1075 ms (1 blueprints)
+[2016.03.30-00.44.03:528][767]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 12:44:03 PM)
+[2016.03.30-00.44.03:544][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009939s)
+[2016.03.30-00.44.03:548][767]LogPlayLevel: PIE: World Init took: (0.003713s)
+[2016.03.30-00.44.03:548][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.014107s)
+[2016.03.30-00.44.03:819][767]LogWorld: Game class is 'GameMode'
+[2016.03.30-00.44.03:824][767]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.30-00.44.03:837][767]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-18.44.03
+[2016.03.30-00.44.03:840][767]LogWorld: Bringing up level for play took: 0.013522
+[2016.03.30-00.44.04:165][767]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 1.532
+[2016.03.30-00.44.18:739][942]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022D016C0
+[2016.03.30-00.44.28:487][147]BlueprintLog: New page: Pre-PIE auto-recompile
+[2016.03.30-00.44.28:509][147]LogPlayLevel: [PIE] Compiling Pantalla-Curva-A4A before PIE...
+[2016.03.30-00.44.29:009][147]LogPlayLevel: PIE:  Blueprint regeneration took 522 ms (1 blueprints)
+[2016.03.30-00.44.29:009][147]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 12:44:29 PM)
+[2016.03.30-00.44.29:020][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009840s)
+[2016.03.30-00.44.29:023][147]LogPlayLevel: PIE: World Init took: (0.002357s)
+[2016.03.30-00.44.29:023][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.012596s)
+[2016.03.30-00.44.29:100][147]LogWorld: Game class is 'GameMode'
+[2016.03.30-00.44.29:104][147]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.30-00.44.29:119][147]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-18.44.29
+[2016.03.30-00.44.29:121][147]LogWorld: Bringing up level for play took: 0.014805
+[2016.03.30-00.44.29:206][147]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 0.572
+[2016.03.30-00.44.49:090][392]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022FA7560
+[2016.03.30-00.44.53:864][445]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Mesh'
+[2016.03.30-00.44.54:607][447]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Texture'
+[2016.03.30-00.44.59:614][497]LogMaterial: Missing cached shader map for material tv-screen_Mat, compiling. 
+[2016.03.30-00.44.59:896][497]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2016.03.30-00.45.00:375][497]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2016.03.30-00.45.00:375][497]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2016.03.30-00.45.00:376][497]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_2) Not registered. Aborting.
+[2016.03.30-00.45.00:376][497]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_2) Already registered. Aborting.
+[2016.03.30-00.45.00:430][497]LogMaterial: Missing cached shader map for material tv-screen_Mat, compiling. 
+[2016.03.30-00.45.00:477][497]LogMaterial: 0.000298 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
+[2016.03.30-00.45.00:621][497]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2016.03.30-00.45.43:423][809]MaterialEditorStats: Info Base pass shader with static lighting: 66 instructions
+[2016.03.30-00.45.43:423][809]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 35 instructions
+[2016.03.30-00.45.43:423][809]MaterialEditorStats: Info Vertex shader: 33 instructions
+[2016.03.30-00.45.43:423][809]MaterialEditorStats: Info Texture samplers: 3/16
+[2016.03.30-00.48.13:482][231]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tv-prueba" FILE="../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/tv-prueba_Auto5.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2016.03.30-00.48.15:829][231]LogSavePackage: Save=1956.240845ms
+[2016.03.30-00.48.15:829][231]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/tv-prueba_Auto58915F04D4B0646220C2E0A8051F21189.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/tv-prueba_Auto5.umap'
+[2016.03.30-00.48.16:374][231]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/tv-prueba' took 3.479
+[2016.03.30-00.48.16:374][231]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.479
+[2016.03.30-00.48.17:045][231]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A] ([1] browsable assets)...
+[2016.03.30-00.48.17:248][231]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A.Pantalla-Curva-A4A]
+[2016.03.30-00.48.17:249][231]OBJ SavePackage: Finished generating thumbnails for package [/Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A]
+[2016.03.30-00.48.21:123][231]LogSavePackage: Save=3392.135010ms
+[2016.03.30-00.48.21:161][231]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Pantalla-Curva-A4A_Auto52300FF0849AF7771C798AAA34E959020.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A_Auto5.uasset'
+[2016.03.30-00.48.21:224][231]LogFileHelpers: Auto-saving content packages took 4.850
+[2016.03.30-00.53.34:938][810]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tv-prueba" FILE="../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Content/tv-prueba.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.03.30-00.53.36:281][810]LogSavePackage: Save=664.056519ms
+[2016.03.30-00.53.36:281][810]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/tv-prueba39F76123460AE87BC75DDFBB1AA29554.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Content/tv-prueba.umap'
+[2016.03.30-00.59.49:733][707]LogPlayLevel: PIE:  No blueprints needed recompiling
+[2016.03.30-00.59.49:733][707]PIE: New page: PIE session: tv-prueba (Mar 29, 2016, 12:59:49 PM)
+[2016.03.30-00.59.49:762][707]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008203s)
+[2016.03.30-00.59.49:765][707]LogPlayLevel: PIE: World Init took: (0.003037s)
+[2016.03.30-00.59.49:766][707]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.011721s)
+[2016.03.30-00.59.49:935][707]LogWorld: Game class is 'GameMode'
+[2016.03.30-00.59.49:940][707]LogAIModule: Creating AISystem for world tv-prueba
+[2016.03.30-00.59.49:983][707]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.29-18.59.49
+[2016.03.30-00.59.50:001][707]LogWorld: Bringing up level for play took: 0.058570
+[2016.03.30-00.59.50:021][707]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba -0.64
+[2016.03.30-01.00.12:175][ 31]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000022BF9620
+[2016.03.30-01.00.18:267][ 55]LogSavePackage: Save=540.902588ms
+[2016.03.30-01.00.18:267][ 55]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Pantalla-Curva-A4A0401774A4B21F2C8A90EB488481B7A2E.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Content/SmartTVCurved/Blueprint/Pantalla-Curva-A4A.uasset'
+[2016.03.30-01.00.18:322][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartTVCurved/Texture/NIN" FILE="../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Content/SmartTVCurved/Texture/NIN.uasset" SILENT=true
+[2016.03.30-01.00.18:352][ 55]LogSavePackage: Save=10.381311ms
+[2016.03.30-01.00.18:352][ 55]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/NIN448873D141E88A21AEAEBBB67473EF8A.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Content/SmartTVCurved/Texture/NIN.uasset'
+[2016.03.30-01.00.18:480][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartTVCurved/Texture/NIN_Tex" FILE="../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Content/SmartTVCurved/Texture/NIN_Tex.uasset" SILENT=true
+[2016.03.30-01.00.18:577][ 55]LogSavePackage: Save=83.128471ms
+[2016.03.30-01.00.18:577][ 55]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/NIN_TexEACDE4C442773214C99C3BAEEB315A76.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Content/SmartTVCurved/Texture/NIN_Tex.uasset'
+[2016.03.30-01.00.18:771][ 55]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SmartTVCurved/Texture/NIN_Wav" FILE="../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Content/SmartTVCurved/Texture/NIN_Wav.uasset" SILENT=true
+[2016.03.30-01.00.18:865][ 55]LogSavePackage: Save=66.318848ms
+[2016.03.30-01.00.18:865][ 55]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/NIN_Wav927024F74DA8D15CD317E99A9EB50B6B.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Content/SmartTVCurved/Texture/NIN_Wav.uasset'
+[2016.03.30-01.00.19:234][ 55]LogSavePackage: Save=13.866035ms
+[2016.03.30-01.00.19:234][ 55]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Nine_Inch_Nails_-_Copy_of_a__VEVO_Presents_270EB49B41528D62B9760D848717C29A.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Content/SmartTVCurved/Texture/Nine_Inch_Nails_-_Copy_of_a__VEVO_Presents_.uasset'
+[2016.03.30-01.00.23:646][ 56]Cmd: QUIT_EDITOR
+[2016.03.30-01.00.29:828][ 56]LogExit: Preparing to exit.
+[2016.03.30-01.00.33:003][ 56]LogExit: Editor shut down
+[2016.03.30-01.00.33:005][ 56]LogExit: Transaction tracking system shut down
+[2016.03.30-01.00.33:007][ 56]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A472DE0
+[2016.03.30-01.00.33:007][ 56]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000CD1C220
+[2016.03.30-01.00.33:008][ 56]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000039E97C40
+[2016.03.30-01.00.33:009][ 56]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000EAA4C20
+[2016.03.30-01.00.33:009][ 56]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F04DDA0
+[2016.03.30-01.00.33:013][ 56]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000003A0A2020
+[2016.03.30-01.00.33:090][ 56]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000D06C9A0
+[2016.03.30-01.00.38:660][ 56]LogExit: Object subsystem successfully closed.
+[2016.03.30-01.00.43:910][ 56]LogModuleManager: Shutting down and abandoning module MaterialEditor (180)
+[2016.03.30-01.00.43:919][ 56]LogModuleManager: Shutting down and abandoning module ReferenceViewer (179)
+[2016.03.30-01.00.43:919][ 56]LogModuleManager: Shutting down and abandoning module TextureEditor (178)
+[2016.03.30-01.00.43:990][ 56]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2016.03.30-01.00.43:990][ 56]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2016.03.30-01.00.43:990][ 56]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2016.03.30-01.00.43:990][ 56]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2016.03.30-01.00.43:990][ 56]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2016.03.30-01.00.43:999][ 56]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2016.03.30-01.00.44:049][ 56]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2016.03.30-01.00.44:049][ 56]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2016.03.30-01.00.44:106][ 56]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2016.03.30-01.00.44:106][ 56]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2016.03.30-01.00.44:106][ 56]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2016.03.30-01.00.44:106][ 56]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2016.03.30-01.00.44:106][ 56]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2016.03.30-01.00.44:106][ 56]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2016.03.30-01.00.44:106][ 56]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2016.03.30-01.00.44:106][ 56]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2016.03.30-01.00.44:107][ 56]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2016.03.30-01.00.44:107][ 56]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2016.03.30-01.00.44:107][ 56]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2016.03.30-01.00.44:187][ 56]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2016.03.30-01.00.44:204][ 56]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2016.03.30-01.00.44:303][ 56]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2016.03.30-01.00.44:328][ 56]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2016.03.30-01.00.44:328][ 56]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2016.03.30-01.00.44:340][ 56]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2016.03.30-01.00.44:350][ 56]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2016.03.30-01.00.44:350][ 56]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2016.03.30-01.00.44:350][ 56]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2016.03.30-01.00.44:371][ 56]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2016.03.30-01.00.44:371][ 56]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2016.03.30-01.00.44:371][ 56]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2016.03.30-01.00.44:371][ 56]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2016.03.30-01.00.44:699][ 56]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2016.03.30-01.00.44:699][ 56]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2016.03.30-01.00.44:699][ 56]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2016.03.30-01.00.44:716][ 56]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2016.03.30-01.00.44:716][ 56]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2016.03.30-01.00.44:752][ 56]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2016.03.30-01.00.44:752][ 56]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2016.03.30-01.00.44:759][ 56]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2016.03.30-01.00.44:770][ 56]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2016.03.30-01.00.44:786][ 56]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2016.03.30-01.00.44:799][ 56]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2016.03.30-01.00.44:799][ 56]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2016.03.30-01.00.44:829][ 56]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2016.03.30-01.00.44:855][ 56]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2016.03.30-01.00.44:902][ 56]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2016.03.30-01.00.44:989][ 56]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2016.03.30-01.00.44:989][ 56]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2016.03.30-01.00.44:989][ 56]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2016.03.30-01.00.44:990][ 56]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2016.03.30-01.00.45:091][ 56]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2016.03.30-01.00.45:254][ 56]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2016.03.30-01.00.45:322][ 56]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2016.03.30-01.00.45:357][ 56]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2016.03.30-01.00.45:357][ 56]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2016.03.30-01.00.45:358][ 56]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2016.03.30-01.00.45:358][ 56]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2016.03.30-01.00.45:358][ 56]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2016.03.30-01.00.45:370][ 56]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2016.03.30-01.00.45:414][ 56]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2016.03.30-01.00.45:414][ 56]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2016.03.30-01.00.45:423][ 56]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2016.03.30-01.00.45:423][ 56]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2016.03.30-01.00.45:437][ 56]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2016.03.30-01.00.45:452][ 56]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2016.03.30-01.00.45:452][ 56]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2016.03.30-01.00.45:452][ 56]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2016.03.30-01.00.45:452][ 56]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2016.03.30-01.00.45:470][ 56]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2016.03.30-01.00.45:470][ 56]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2016.03.30-01.00.45:492][ 56]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2016.03.30-01.00.45:527][ 56]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2016.03.30-01.00.45:561][ 56]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2016.03.30-01.00.45:561][ 56]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2016.03.30-01.00.45:561][ 56]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2016.03.30-01.00.45:561][ 56]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2016.03.30-01.00.45:577][ 56]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2016.03.30-01.00.45:602][ 56]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2016.03.30-01.00.45:602][ 56]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2016.03.30-01.00.45:602][ 56]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2016.03.30-01.00.45:642][ 56]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2016.03.30-01.00.45:642][ 56]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2016.03.30-01.00.45:663][ 56]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2016.03.30-01.00.45:690][ 56]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2016.03.30-01.00.45:692][ 56]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2016.03.30-01.00.45:692][ 56]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2016.03.30-01.00.45:732][ 56]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2016.03.30-01.00.45:732][ 56]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2016.03.30-01.00.45:782][ 56]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2016.03.30-01.00.45:801][ 56]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2016.03.30-01.00.45:823][ 56]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2016.03.30-01.00.45:863][ 56]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2016.03.30-01.00.45:863][ 56]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2016.03.30-01.00.45:863][ 56]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2016.03.30-01.00.45:863][ 56]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2016.03.30-01.00.45:865][ 56]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2016.03.30-01.00.45:951][ 56]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2016.03.30-01.00.45:992][ 56]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2016.03.30-01.00.46:118][ 56]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2016.03.30-01.00.46:149][ 56]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2016.03.30-01.00.46:160][ 56]LogModuleManager: Shutting down and abandoning module Media (76)
+[2016.03.30-01.00.46:160][ 56]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2016.03.30-01.00.46:161][ 56]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2016.03.30-01.00.46:161][ 56]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2016.03.30-01.00.46:177][ 56]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2016.03.30-01.00.46:193][ 56]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2016.03.30-01.00.46:212][ 56]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2016.03.30-01.00.46:226][ 56]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2016.03.30-01.00.46:226][ 56]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2016.03.30-01.00.46:226][ 56]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2016.03.30-01.00.46:228][ 56]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2016.03.30-01.00.46:251][ 56]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2016.03.30-01.00.46:263][ 56]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2016.03.30-01.00.46:285][ 56]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2016.03.30-01.00.46:285][ 56]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2016.03.30-01.00.46:322][ 56]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2016.03.30-01.00.46:322][ 56]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2016.03.30-01.00.46:323][ 56]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2016.03.30-01.00.46:323][ 56]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2016.03.30-01.00.46:323][ 56]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2016.03.30-01.00.46:323][ 56]LogModuleManager: Shutting down and abandoning module Core (55)
+[2016.03.30-01.00.46:323][ 56]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2016.03.30-01.00.46:323][ 56]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2016.03.30-01.00.46:354][ 56]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2016.03.30-01.00.46:363][ 56]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2016.03.30-01.00.46:439][ 56]LogDerivedDataCache: Shutdown
+[2016.03.30-01.00.46:439][ 56]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2016.03.30-01.00.46:479][ 56]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2016.03.30-01.00.46:494][ 56]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2016.03.30-01.00.46:505][ 56]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2016.03.30-01.00.46:505][ 56]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2016.03.30-01.00.46:505][ 56]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2016.03.30-01.00.46:505][ 56]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2016.03.30-01.00.46:505][ 56]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2016.03.30-01.00.46:505][ 56]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2016.03.30-01.00.46:505][ 56]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2016.03.30-01.00.46:520][ 56]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2016.03.30-01.00.46:520][ 56]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2016.03.30-01.00.46:520][ 56]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2016.03.30-01.00.46:521][ 56]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2016.03.30-01.00.46:521][ 56]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2016.03.30-01.00.46:564][ 56]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2016.03.30-01.00.46:564][ 56]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2016.03.30-01.00.46:564][ 56]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2016.03.30-01.00.46:564][ 56]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2016.03.30-01.00.46:564][ 56]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2016.03.30-01.00.46:564][ 56]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2016.03.30-01.00.46:564][ 56]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2016.03.30-01.00.46:564][ 56]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2016.03.30-01.00.46:564][ 56]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2016.03.30-01.00.46:564][ 56]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2016.03.30-01.00.46:564][ 56]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2016.03.30-01.00.46:564][ 56]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2016.03.30-01.00.46:564][ 56]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2016.03.30-01.00.46:564][ 56]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2016.03.30-01.00.46:564][ 56]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2016.03.30-01.00.46:564][ 56]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2016.03.30-01.00.46:564][ 56]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2016.03.30-01.00.46:564][ 56]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2016.03.30-01.00.46:564][ 56]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2016.03.30-01.00.46:564][ 56]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2016.03.30-01.00.46:564][ 56]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2016.03.30-01.00.46:571][ 56]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2016.03.30-01.00.46:580][ 56]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2016.03.30-01.00.46:580][ 56]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2016.03.30-01.00.46:580][ 56]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2016.03.30-01.00.46:618][ 56]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2016.03.30-01.00.46:654][ 56]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2016.03.30-01.00.46:654][ 56]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.03.30-01.00.46:654][ 56]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.03.30-01.00.46:654][ 56]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.03.30-01.00.46:654][ 56]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.03.30-01.00.46:670][ 56]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.03.30-01.00.46:678][ 56]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.03.30-01.00.46:678][ 56]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.03.30-01.00.46:685][ 56]LogExit: Exiting.
+[2016.03.30-01.00.46:754][ 56]Log file closed, 03/29/16 19:00:46
