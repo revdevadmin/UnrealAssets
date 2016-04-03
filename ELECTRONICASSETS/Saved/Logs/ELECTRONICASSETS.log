@@ -1,4 +1,4 @@
-﻿Log file open, 03/30/16 12:53:18
+﻿Log file open, 04/02/16 19:09:47
 LogInit:Display: Running engine for game: ELECTRONICASSETS
 LogInit: Version: 4.7.6-2513093+++depot+UE4-Releases+4.7
 LogInit: API Version: 2455222
@@ -6,574 +6,316 @@ LogInit: Compiled (64-bit): Apr 15 2015 12:09:54
 LogInit: Compiled with Visual C++: 18.00.21005.01
 LogInit: Build Configuration: Development
 LogInit: Branch Name: ++depot+UE4-Releases+4.7
-LogInit: Command line:  
+LogInit: Command line: -EpicPortal 
 LogInit: Base directory: C:/Program Files/Epic Games/4.7/Engine/Binaries/Win64/
 LogInit: Rocket: 1
-[2016.03.30-18.53.18:932][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
-[2016.03.30-18.53.18:983][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
-[2016.03.30-18.53.19:021][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
-[2016.03.30-18.53.19:046][  0]LogInit: Object subsystem initialized
-[2016.03.30-18.53.19:052][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
-[2016.03.30-18.53.19:052][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2016.03.30-18.53.19:052][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
-[2016.03.30-18.53.19:052][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2016.03.30-18.53.19:052][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
-[2016.03.30-18.53.19:052][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
-[2016.03.30-18.53.19:054][  0]LogInit: Selected Device Profile: [Windows]
-[2016.03.30-18.53.19:054][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2016.03.30-18.53.19:095][  0]LogInit: Computer: ISOQA
-[2016.03.30-18.53.19:095][  0]LogInit: User: 3c0z
-[2016.03.30-18.53.19:095][  0]LogInit: CPU Page size=4096, Cores=2
-[2016.03.30-18.53.19:095][  0]LogInit: High frequency timer resolution =2.539082 MHz
-[2016.03.30-18.53.19:096][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx) Virtual=8192.0GB
-[2016.03.30-18.53.19:096][  0]LogMemory: Platform Memory Stats for Windows
-[2016.03.30-18.53.19:096][  0]LogMemory: Process Physical Memory: 46.81 MB used, 46.81 MB peak
-[2016.03.30-18.53.19:096][  0]LogMemory: Process Virtual Memory: 25.05 MB used, 25.05 MB peak
-[2016.03.30-18.53.19:096][  0]LogMemory: Physical Memory: 3309.19 MB used, 4094.49 MB total
-[2016.03.30-18.53.19:096][  0]LogMemory: Virtual Memory: 278.32 MB used, 8388608.00 MB total
-[2016.03.30-18.53.19:228][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 750 Ti (Feature Level 11_0)
-[2016.03.30-18.53.19:228][  0]LogD3D11RHI: Adapter has 1993MB of dedicated video memory, 0MB of dedicated system memory, and 1791MB of shared system memory, 1 output[s]
-[2016.03.30-18.53.19:228][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
-[2016.03.30-18.53.19:247][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2016.03.30-18.53.19:273][  0]LogD3D11RHI: Async texture creation enabled
-[2016.03.30-18.53.19:541][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('es') localization data will be used.
-[2016.03.30-18.53.19:959][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
+[2016.04.03-01.09.47:066][  0]LogTaskGraph: Started task graph with 3 named threads and 4 total threads.
+[2016.04.03-01.09.47:111][  0]LogOnline:Warning: No default platform service specified for OnlineSubsystem
+[2016.04.03-01.09.47:146][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.04.03-01.09.47:168][  0]LogInit: Object subsystem initialized
+[2016.04.03-01.09.47:171][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'TranslucentSortAxis = (X=0.000000,Y=-1.000000,Z=0.000000)'
+[2016.04.03-01.09.47:172][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/3c0z/Documents/GitHub/UnrealAssets/ELECTRONICASSETS/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.04.03-01.09.47:172][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleRule = ShortestSide'
+[2016.04.03-01.09.47:172][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/3c0z/Documents/GitHub/UnrealAssets/ELECTRONICASSETS/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.04.03-01.09.47:172][  0]LogConsoleResponse:Warning: Skipping Unknown console variable: 'UIScaleCurve = (EditorCurveData=(Keys=),ExternalCurve=None)'
+[2016.04.03-01.09.47:172][  0]LogConsoleResponse:Warning:   Found in ini file 'C:/Users/3c0z/Documents/GitHub/UnrealAssets/ELECTRONICASSETS/Saved/Config/Windows/Engine.ini', in section '[/Script/Engine.RendererSettings]'
+[2016.04.03-01.09.47:173][  0]LogInit: Selected Device Profile: [Windows]
+[2016.04.03-01.09.47:173][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.04.03-01.09.47:194][  0]LogInit: Computer: ISOQA
+[2016.04.03-01.09.47:194][  0]LogInit: User: 3c0z
+[2016.04.03-01.09.47:194][  0]LogInit: CPU Page size=4096, Cores=2
+[2016.04.03-01.09.47:194][  0]LogInit: High frequency timer resolution =2.539082 MHz
+[2016.04.03-01.09.47:195][  0]LogMemory: Memory total: Physical=4.0GB (4GB approx) Virtual=8192.0GB
+[2016.04.03-01.09.47:195][  0]LogMemory: Platform Memory Stats for Windows
+[2016.04.03-01.09.47:195][  0]LogMemory: Process Physical Memory: 46.82 MB used, 46.82 MB peak
+[2016.04.03-01.09.47:195][  0]LogMemory: Process Virtual Memory: 29.05 MB used, 29.05 MB peak
+[2016.04.03-01.09.47:195][  0]LogMemory: Physical Memory: 2358.75 MB used, 4094.49 MB total
+[2016.04.03-01.09.47:195][  0]LogMemory: Virtual Memory: 282.32 MB used, 8388608.00 MB total
+[2016.04.03-01.09.47:264][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 750 Ti (Feature Level 11_0)
+[2016.04.03-01.09.47:264][  0]LogD3D11RHI: Adapter has 1993MB of dedicated video memory, 0MB of dedicated system memory, and 1791MB of shared system memory, 1 output[s]
+[2016.04.03-01.09.47:264][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.04.03-01.09.47:286][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.04.03-01.09.47:306][  0]LogD3D11RHI: Async texture creation enabled
+[2016.04.03-01.09.47:412][  0]LogTextLocalizationManager: The requested culture ('en_US') has no localization data; parent culture's ('es') localization data will be used.
+[2016.04.03-01.09.47:670][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:UICommands, Key:Save_ToolTip):
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-29098895) String: (Saves the current level to disk)
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Engine/en/Engine.locres) Hash: (-1280300587) String: (Save selected data to vlog file)
-[2016.03.30-18.53.19:959][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
+[2016.04.03-01.09.47:671][  0]LogTextLocalizationManager:Warning: Loading localization resources contain conflicting entries for (Namespace:ContentBrowser, Key:ImportAssetToolTip):
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (-630476809) String: (Import to {0}...)
 Resource: (C:/Program Files/Epic Games/4.7/Engine/Content/Localization/Editor/en/Editor.locres) Hash: (1271782899) String: (Imports an asset from file to this folder.)
-[2016.03.30-18.53.20:331][  0]LogContentStreaming: Texture pool size is 0.000000MB
-[2016.03.30-18.53.41:318][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.03.30-18.53.45:780][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.03.30-18.53.46:196][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2016.03.30-18.53.47:034][  0]LogDerivedDataCache: Loaded boot cache 0.84s 39MB C:/Users/3c0z/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2016.03.30-18.53.47:034][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/3c0z/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
-[2016.03.30-18.53.47:034][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2016.03.30-18.53.47:034][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2016.03.30-18.53.47:411][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2016.03.30-18.53.47:440][  0]LogDerivedDataCache: Using Local data cache path C:/Users/3c0z/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2016.03.30-18.54.04:033][  0]LogMeshUtilities: No automatic mesh reduction module available
-[2016.03.30-18.54.04:033][  0]LogMeshUtilities: No automatic mesh merging module available
-[2016.03.30-18.54.11:660][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2016.03.30-18.54.13:811][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
-[2016.03.30-18.55.01:830][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2016.03.30-18.55.03:215][  0]SourceControl: Info Source control is disabled
-[2016.03.30-18.55.03:229][  0]SourceControl: Info Source control is disabled
-[2016.03.30-18.55.03:229][  0]SourceControl: Info Source control is disabled
-[2016.03.30-18.55.03:229][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
-[2016.03.30-18.55.03:229][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
-[2016.03.30-18.55.03:258][  0]SourceControl: Info Source control is disabled
-[2016.03.30-18.55.04:927][  0]LogObj: 24232 objects as part of root set at end of initial load.
-[2016.03.30-18.55.04:927][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
-[2016.03.30-18.55.05:656][  0]LogEngine: Initializing Engine...
-[2016.03.30-18.55.08:601][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2016.03.30-18.55.09:153][  0]LogInit: FAudioDevice initialized.
-[2016.03.30-18.55.09:712][  0]LogAIModule: Creating AISystem for world NewWorld
-[2016.03.30-18.55.09:826][  0]LogDerivedDataCache: Saved boot cache 0.06s 39MB C:/Users/3c0z/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
-[2016.03.30-18.55.09:851][  0]LogInit: Texture streaming: Enabled
-[2016.03.30-18.55.11:200][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
-[2016.03.30-18.55.11:201][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
-[2016.03.30-18.55.11:201][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
-[2016.03.30-18.55.11:201][  0]LogAnalytics: SetUserId f8d463004448e9bf9238c395a56aa488|6b2d3cb90e4040169396666e7dda91ad|be6a12fa-584f-40e9-9224-deb3c37dd44e
-[2016.03.30-18.55.11:437][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
-[2016.03.30-18.55.12:507][  0]LogInit: Transaction tracking system initialized
-[2016.03.30-18.55.18:672][  0]BlueprintLog: New page: Editor Load
-[2016.03.30-18.55.19:297][  0]LogAssetRegistry: FAssetRegistry took 0.0869 seconds to start up
-[2016.03.30-18.55.19:300][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
-[2016.03.30-18.55.30:588][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.03.30-18.55.33:832][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2016.03.30-18.55.38:187][  0]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2016.03.30-18.55.40:956][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
-[2016.03.30-18.55.40:992][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
-[2016.03.30-18.55.41:182][  0]LogConsoleResponse:Display: 
-[2016.03.30-18.55.49:325][  0]LogCook:Display: Done creating registry. It took  0.00s.
-[2016.03.30-18.55.57:628][  0]SourceControl: Info Source control is disabled
-[2016.03.30-18.55.57:995][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.03.30-18.55.58:093][  0]LightingResults: New page: Lighting Build
-[2016.03.30-18.55.59:135][  0]MapCheck: New page: Map Check
-[2016.03.30-18.55.59:135][  0]LightingResults: New page: Lighting Build
-[2016.03.30-18.56.00:139][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016534D60
-[2016.03.30-18.56.10:433][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.03.30-18.56.10:550][  0]LogAIModule: Creating AISystem for world Untitled_1
-[2016.03.30-18.56.10:596][  0]Cmd: MAP CHECKDEP
-[2016.03.30-18.56.10:641][  0]MapCheck: New page: Untitled_1 - Mar 30, 2016, 6:56:10 AM
-[2016.03.30-18.56.11:058][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 461.17ms to complete.
-[2016.03.30-18.56.11:073][  0]LogFileHelpers: Loading map 'Template_Default' took 13.234
-[2016.03.30-18.56.19:522][  0]LogCollectionManager: Loaded 0 collections in 0.003458 seconds
-[2016.03.30-18.56.19:605][  0]LogContentBrowser: Native class hierarchy populated in 0.0591 seconds. Added 1696 classes and 261 folders.
-[2016.03.30-18.56.20:039][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0037 seconds. Added 1 classes and 2 folders.
-[2016.03.30-18.56.20:711][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2016.03.30-18.56.20:768][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
-[2016.03.30-18.56.20:897][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2016.03.30-18.56.21:110][  0]LogLoad: Full Startup: 187.21 seconds (BP compile: 1.94 seconds)
-[2016.03.30-18.56.21:546][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Blueprint'
-[2016.03.30-18.56.22:755][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
-[2016.03.30-18.56.23:517][  0]LogRenderer:Warning: Reallocating scene render targets to support 1208x560 (Frame:3).
-[2016.03.30-18.56.25:987][  8]LogAssetRegistry: Asset discovery search completed in 66.7746 seconds
-[2016.03.30-18.57.18:023][660]Cmd: MAP LOAD FILE="../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Content/tv-prueba.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2016.03.30-18.57.18:116][660]LightingResults: New page: Lighting Build
-[2016.03.30-18.57.18:234][660]LoadErrors: New page: Loading map: tv-prueba.umap
-[2016.03.30-18.57.18:271][660]MapCheck: New page: Map Check
-[2016.03.30-18.57.18:271][660]LightingResults: New page: Lighting Build
-[2016.03.30-18.57.18:334][660]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000DA92B60
-[2016.03.30-18.57.23:873][660]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2016.03.30-18.57.23:916][660]LogAIModule: Creating AISystem for world tv-prueba
-[2016.03.30-18.57.24:003][660]Cmd: MAP CHECKDEP
-[2016.03.30-18.57.24:003][660]MapCheck: New page: tv-prueba - Mar 30, 2016, 6:57:24 AM
-[2016.03.30-18.57.24:174][660]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 171.038ms to complete.
-[2016.03.30-18.57.24:174][660]LogFileHelpers: Loading map 'tv-prueba' took 6.154
-[2016.03.30-18.58.26:724][ 49]LogSavePackage: Save=595.125305ms
-[2016.03.30-18.58.26:724][ 49]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Pantalla-Curva-A4AE28F7A1B49DE929E679E53B2EA1CA8F8.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Content/SmartTVCurved/Blueprint/Pantalla-Curva-A4A.uasset'
-[2016.03.30-18.58.31:290][225]BlueprintLog: New page: Pre-PIE auto-recompile
-[2016.03.30-18.58.31:325][225]LogPlayLevel: [PIE] Compiling Pantalla-Curva-A4A before PIE...
-[2016.03.30-18.58.32:142][225]LogPlayLevel: PIE:  Blueprint regeneration took 851 ms (1 blueprints)
-[2016.03.30-18.58.32:143][225]PIE: New page: PIE session: tv-prueba (Mar 30, 2016, 6:58:32 AM)
-[2016.03.30-18.58.32:148][225]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004451s)
-[2016.03.30-18.58.32:150][225]LogPlayLevel: PIE: World Init took: (0.002172s)
-[2016.03.30-18.58.32:150][225]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.006962s)
-[2016.03.30-18.58.32:240][225]LogWorld: Game class is 'GameMode'
-[2016.03.30-18.58.32:335][225]LogAIModule: Creating AISystem for world tv-prueba
-[2016.03.30-18.58.32:341][225]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.30-12.58.32
-[2016.03.30-18.58.32:352][225]LogWorld: Bringing up level for play took: 0.015563
-[2016.03.30-18.58.32:418][225]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 1.754
-[2016.03.30-18.58.32:619][225]LogRenderer:Warning: Reallocating scene render targets to support 1208x656 (Frame:1135).
-[2016.03.30-18.58.47:465][539]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000344E4F40
-[2016.03.30-18.58.50:418][591]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Movies'
-[2016.03.30-18.58.56:611][731]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Texture'
-[2016.03.30-18.58.59:954][797]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Movies'
-[2016.03.30-18.59.00:781][816]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Mesh'
-[2016.03.30-18.59.04:910][888]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2016.03.30-18.59.04:910][888]PIE: New page: PIE session: tv-prueba (Mar 30, 2016, 6:59:04 AM)
-[2016.03.30-18.59.04:919][888]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007494s)
-[2016.03.30-18.59.04:921][888]LogPlayLevel: PIE: World Init took: (0.002296s)
-[2016.03.30-18.59.04:922][888]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.010234s)
-[2016.03.30-18.59.05:104][888]LogWorld: Game class is 'GameMode'
-[2016.03.30-18.59.05:109][888]LogAIModule: Creating AISystem for world tv-prueba
-[2016.03.30-18.59.05:143][888]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.30-12.59.05
-[2016.03.30-18.59.05:160][888]LogWorld: Bringing up level for play took: 0.048941
-[2016.03.30-18.59.05:168][888]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 0.503
-[2016.03.30-18.59.34:634][546]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000046E41A80
-[2016.03.30-18.59.44:728][748]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (PantallaCurva00)
-[2016.03.30-19.00.22:082][376]Cmd: SELECT NONE
-[2016.03.30-19.06.02:200][397]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2016.03.30-19.06.02:209][397]PIE: New page: PIE session: tv-prueba (Mar 30, 2016, 7:06:02 AM)
-[2016.03.30-19.06.02:222][397]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011606s)
-[2016.03.30-19.06.02:228][397]LogPlayLevel: PIE: World Init took: (0.006144s)
-[2016.03.30-19.06.02:228][397]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.018306s)
-[2016.03.30-19.06.02:406][397]LogWorld: Game class is 'GameMode'
-[2016.03.30-19.06.02:412][397]LogAIModule: Creating AISystem for world tv-prueba
-[2016.03.30-19.06.02:446][397]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.30-13.06.02
-[2016.03.30-19.06.02:448][397]LogWorld: Bringing up level for play took: 0.034280
-[2016.03.30-19.06.02:458][397]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba -0.22
-[2016.03.30-19.06.14:407][610]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000228A9D00
-[2016.03.30-19.06.15:358][622]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Materials'
-[2016.03.30-19.06.16:727][639]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Mesh'
-[2016.03.30-19.06.17:856][651]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Movies'
-[2016.03.30-19.06.34:068][834]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 1.4993 seconds. Added 1 classes and 2 folders.
-[2016.03.30-19.07.39:397][512]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Movies'
-[2016.03.30-19.07.55:713][633]LogMaterial: Missing cached shader map for material Despicable_Me-_Banana_Song__50_sec__Tex_Mat, compiling. 
-[2016.03.30-19.08.01:575][665]LogMaterial: Missing cached shader map for material Despicable_Me-_Banana_Song__50_sec__Tex_Mat, compiling. 
-[2016.03.30-19.08.02:208][665]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2016.03.30-19.08.03:086][665]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2016.03.30-19.08.03:086][665]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
-[2016.03.30-19.08.03:087][665]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_0) Not registered. Aborting.
-[2016.03.30-19.08.03:087][665]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_0) Already registered. Aborting.
-[2016.03.30-19.08.03:140][665]LogMaterial: Missing cached shader map for material Despicable_Me-_Banana_Song__50_sec__Tex_Mat, compiling. 
-[2016.03.30-19.08.03:213][665]LogMaterial: 0.000112 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.03.30-19.08.03:457][665]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
-[2016.03.30-19.08.14:986][763]LogRenderer:Warning: Reallocating scene render targets to support 1208x672 (Frame:4806).
-[2016.03.30-19.08.19:955][780]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tv-prueba" FILE="../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/tv-prueba_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2016.03.30-19.08.21:325][780]LogSavePackage: Save=963.956238ms
-[2016.03.30-19.08.21:555][780]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/tv-prueba_Auto1B83668454A3F3F0849C0528BBF2A2791.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/tv-prueba_Auto1.umap'
-[2016.03.30-19.08.21:780][780]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/tv-prueba' took 3.175
-[2016.03.30-19.08.21:780][780]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 3.175
-[2016.03.30-19.08.22:692][780]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SmartTVCurved/Movies/Despicable_Me-_Banana_Song__50_sec__Tex_Mat] ([1] browsable assets)...
-[2016.03.30-19.10.54:519][780]OBJ SavePackage:     Rendered thumbnail for [Material /Game/SmartTVCurved/Movies/Despicable_Me-_Banana_Song__50_sec__Tex_Mat.Despicable_Me-_Banana_Song__50_sec__Tex_Mat]
-[2016.03.30-19.10.54:519][780]OBJ SavePackage: Finished generating thumbnails for package [/Game/SmartTVCurved/Movies/Despicable_Me-_Banana_Song__50_sec__Tex_Mat]
-[2016.03.30-19.10.57:073][780]LogSavePackage: Save=2504.336182ms
-[2016.03.30-19.10.57:104][780]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Despicable_Me-_Banana_Song__50_sec__Tex_Mat_Auto101D960C243108D17E6D610B8224A1480.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/SmartTVCurved/Movies/Despicable_Me-_Banana_Song__50_sec__Tex_Mat_Auto1.uasset'
-[2016.03.30-19.10.57:156][780]LogFileHelpers: Auto-saving content packages took 155.372
-[2016.03.30-19.10.57:684][782]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 30 instructions
-[2016.03.30-19.10.57:684][782]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2016.03.30-19.10.57:684][782]MaterialEditorStats: Info Texture samplers: 1/16
-[2016.03.30-19.14.40:661][539]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Texture'
-[2016.03.30-19.15.08:536][952]LogMaterial: Missing cached shader map for material tv-screen_Mat, compiling. 
-[2016.03.30-19.15.08:853][952]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
-[2016.03.30-19.15.09:526][952]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
-[2016.03.30-19.15.09:526][952]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
-[2016.03.30-19.15.09:526][952]LogActorComponent: UnregisterComponent: (/Engine/Transient.SkeletalMeshComponent_1) Not registered. Aborting.
-[2016.03.30-19.15.09:526][952]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.MaterialEditorMeshComponent_1) Already registered. Aborting.
-[2016.03.30-19.15.09:599][952]LogMaterial: Missing cached shader map for material tv-screen_Mat, compiling. 
-[2016.03.30-19.15.09:711][952]LogMaterial: 0.013544 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.03.30-19.15.09:898][952]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2016.03.30-19.15.25:926][116]LogMaterial: Missing cached shader map for material tv-screen_Mat, compiling. 
-[2016.03.30-19.15.25:972][116]LogMaterial: 0.004727 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.03.30-19.15.26:163][116]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
-[2016.03.30-19.15.35:055][234]LogMaterialEditor: Saving and Compiling material tv-screen_Mat
-[2016.03.30-19.15.53:311][234]LogMaterial: Missing cached shader map for material tv-screen_Mat, compiling. 
-[2016.03.30-19.15.53:560][234]LogMaterial: 0.000083 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.03.30-19.15.54:290][234]LogMaterial: Missing cached shader map for material tv-screen_Mat, compiling. 
-[2016.03.30-19.15.54:797][234]LogMaterial: Missing cached shader map for material tv-screen_Mat, compiling. 
-[2016.03.30-19.15.54:933][234]LogMaterial: 0.045954 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.03.30-19.23.08:975][234]LogSavePackage: Save=3523.228760ms
-[2016.03.30-19.23.08:975][234]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/tv-screen_MatCA597DE64FE3C8367ACC67A88A36E8BC.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Content/SmartTVCurved/Texture/tv-screen_Mat.uasset'
-[2016.03.30-19.23.09:052][234]MaterialEditorStats: Info Base pass shader with static lighting: 96 instructions
-[2016.03.30-19.23.09:052][234]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 65 instructions
-[2016.03.30-19.23.09:052][234]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2016.03.30-19.23.09:052][234]MaterialEditorStats: Info Texture samplers: 4/16
-[2016.03.30-19.32.12:963][932]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2016.03.30-19.32.13:807][932]PIE: New page: PIE session: tv-prueba (Mar 30, 2016, 7:32:13 AM)
-[2016.03.30-19.32.16:965][932]LogPlayLevel: PIE: StaticDuplicateObject took: (2.957098s)
-[2016.03.30-19.32.17:045][932]LogPlayLevel: PIE: World Init took: (0.080705s)
-[2016.03.30-19.32.17:131][932]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (3.242310s)
-[2016.03.30-19.32.18:101][932]LogWorld: Game class is 'GameMode'
-[2016.03.30-19.32.20:072][932]LogAIModule: Creating AISystem for world tv-prueba
-[2016.03.30-19.32.20:445][932]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.30-13.32.20
-[2016.03.30-19.32.20:737][932]LogWorld: Bringing up level for play took: 0.504246
-[2016.03.30-19.32.21:623][932]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 8.842
-[2016.03.30-19.33.01:987][446]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000004137E980
-[2016.03.30-19.33.02:113][446]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019754E00
-[2016.03.30-19.33.25:505][620]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Materials'
-[2016.03.30-19.34.34:308][460]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2016.03.30-19.34.34:308][460]PIE: New page: PIE session: tv-prueba (Mar 30, 2016, 7:34:34 AM)
-[2016.03.30-19.34.34:321][460]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011212s)
-[2016.03.30-19.34.34:326][460]LogPlayLevel: PIE: World Init took: (0.004987s)
-[2016.03.30-19.34.34:326][460]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.016622s)
-[2016.03.30-19.34.34:467][460]LogWorld: Game class is 'GameMode'
-[2016.03.30-19.34.34:473][460]LogAIModule: Creating AISystem for world tv-prueba
-[2016.03.30-19.34.34:487][460]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.30-13.34.34
-[2016.03.30-19.34.34:490][460]LogWorld: Bringing up level for play took: 0.015204
-[2016.03.30-19.34.34:498][460]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba -0.232
-[2016.03.30-19.35.07:759][ 38]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000109E16C0
-[2016.03.30-19.35.35:963][365]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Blueprint'
-[2016.03.30-19.35.42:275][436]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Movies'
-[2016.03.30-19.36.48:702][382]LogEditorViewport: Clicking on Actor (LMB): Pantalla-Curva-A4A_C (Pantalla-Curva-A4A2)
-[2016.03.30-19.36.54:531][423]LogEditorViewport: Clicking on Actor (LMB): AmbientSound (AmbientSound1)
-[2016.03.30-19.40.58:263][293]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2016.03.30-19.40.58:385][293]PIE: New page: PIE session: tv-prueba (Mar 30, 2016, 7:40:58 AM)
-[2016.03.30-19.40.58:395][293]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007638s)
-[2016.03.30-19.40.58:397][293]LogPlayLevel: PIE: World Init took: (0.002705s)
-[2016.03.30-19.40.58:398][293]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.010798s)
-[2016.03.30-19.40.58:590][293]LogWorld: Game class is 'GameMode'
-[2016.03.30-19.40.58:595][293]LogAIModule: Creating AISystem for world tv-prueba
-[2016.03.30-19.40.58:607][293]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.30-13.40.58
-[2016.03.30-19.40.58:610][293]LogWorld: Bringing up level for play took: 0.012459
-[2016.03.30-19.40.58:617][293]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba -0.122
-[2016.03.30-19.41.23:288][552]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000109E0720
-[2016.03.30-19.41.25:945][572]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Blueprint'
-[2016.03.30-19.43.34:297][879]LogRenderer:Warning: Reallocating scene render targets to support 1208x904 (Frame:11085).
-[2016.03.30-19.44.06:809][189]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tv-prueba" FILE="../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/tv-prueba_Auto2.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2016.03.30-19.44.10:079][189]LogSavePackage: Save=2822.808838ms
-[2016.03.30-19.44.10:081][189]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/tv-prueba_Auto29C339A4F44ED0A79D3C9B3A2022DF601.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/tv-prueba_Auto2.umap'
-[2016.03.30-19.44.10:466][189]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/tv-prueba' took 4.649
-[2016.03.30-19.44.10:466][189]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 4.649
-[2016.03.30-19.44.10:632][189]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A] ([1] browsable assets)...
-[2016.03.30-19.44.10:753][189]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A.Pantalla-Curva-A4A]
-[2016.03.30-19.44.10:753][189]OBJ SavePackage: Finished generating thumbnails for package [/Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A]
-[2016.03.30-19.44.15:359][189]LogSavePackage: Save=4229.867676ms
-[2016.03.30-19.44.15:361][189]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Pantalla-Curva-A4A_Auto20762E1CC4369F0DE526049B9B7E498E1.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A_Auto2.uasset'
-[2016.03.30-19.44.15:409][189]LogFileHelpers: Auto-saving content packages took 4.943
-[2016.03.30-19.44.37:939][381]LogSavePackage: Save=3498.515137ms
-[2016.03.30-19.44.37:939][381]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Pantalla-Curva-A4AA1CF9E7043372151341912A826ACD618.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Content/SmartTVCurved/Blueprint/Pantalla-Curva-A4A.uasset'
-[2016.03.30-19.44.39:551][399]BlueprintLog: New page: Pre-PIE auto-recompile
-[2016.03.30-19.44.41:052][399]LogPlayLevel: [PIE] Compiling Pantalla-Curva-A4A before PIE...
-[2016.03.30-19.44.45:035][399]LogPlayLevel: PIE:  Blueprint regeneration took 5510 ms (1 blueprints)
-[2016.03.30-19.44.45:036][399]PIE: New page: PIE session: tv-prueba (Mar 30, 2016, 7:44:45 AM)
-[2016.03.30-19.44.45:049][399]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011405s)
-[2016.03.30-19.44.45:051][399]LogPlayLevel: PIE: World Init took: (0.002547s)
-[2016.03.30-19.44.45:052][399]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.014569s)
-[2016.03.30-19.44.45:283][399]LogWorld: Game class is 'GameMode'
-[2016.03.30-19.44.45:289][399]LogAIModule: Creating AISystem for world tv-prueba
-[2016.03.30-19.44.45:304][399]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.30-13.44.45
-[2016.03.30-19.44.45:307][399]LogWorld: Bringing up level for play took: 0.015735
-[2016.03.30-19.44.45:388][399]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 6.642
-[2016.03.30-19.45.08:035][681]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001FBA6DE0
-[2016.03.30-19.45.25:567][893]LogMaterial: Missing cached shader map for material tv-screen_Mat, compiling. 
-[2016.03.30-19.45.25:616][893]LogMaterial: 0.000423 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.03.30-19.45.40:718][  9]LogPlayLevel: PIE:  No blueprints needed recompiling
-[2016.03.30-19.45.40:843][  9]PIE: New page: PIE session: tv-prueba (Mar 30, 2016, 7:45:40 AM)
-[2016.03.30-19.45.40:902][  9]LogPlayLevel: PIE: StaticDuplicateObject took: (0.057695s)
-[2016.03.30-19.45.40:905][  9]LogPlayLevel: PIE: World Init took: (0.003063s)
-[2016.03.30-19.45.40:905][  9]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (0.061211s)
-[2016.03.30-19.45.41:406][  9]LogWorld: Game class is 'GameMode'
-[2016.03.30-19.45.41:411][  9]LogAIModule: Creating AISystem for world tv-prueba
-[2016.03.30-19.45.41:422][  9]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.30-13.45.41
-[2016.03.30-19.45.41:425][  9]LogWorld: Bringing up level for play took: 0.011690
-[2016.03.30-19.45.41:765][  9]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 1.017
-[2016.03.30-19.46.07:783][382]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002D099120
-[2016.03.30-19.46.13:194][465]LogMaterialEditor: Applying material tv-screen_Mat
-[2016.03.30-19.46.33:214][465]LogMaterial: Missing cached shader map for material tv-screen_Mat, compiling. 
-[2016.03.30-19.46.33:389][465]LogMaterial: 0.000087 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.03.30-19.46.34:228][465]LogMaterial: Missing cached shader map for material tv-screen_Mat, compiling. 
-[2016.03.30-19.46.34:551][465]LogMaterial: Missing cached shader map for material tv-screen_Mat, compiling. 
-[2016.03.30-19.46.34:753][465]LogMaterial: 0.164476 seconds spent updating 1 materials, 1 interfaces, 0 instances, 0 with static permutations.
-[2016.03.30-19.49.40:759][529]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Texture'
-[2016.03.30-19.50.17:740][658]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\3c0z\Desktop\Colors-Fingerprint.png)
-[2016.03.30-19.50.21:346][658]0.000067 seconds to analyze Texture2D /Game/SmartTVCurved/Texture/Colors-Fingerprint.Colors-Fingerprint
-
-[2016.03.30-19.50.22:084][658]LogTexture:Display: Building textures: Colors-Fingerprint (BGRA8)
-[2016.03.30-19.50.23:242][658]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2016.03.30-19.50.23:243][658]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Texture'
-[2016.03.30-19.54.27:849][ 11]LogFactory: FactoryCreateBinary: Texture with TextureFactory (0 0 C:\Users\3c0z\Desktop\Colors-Fingerprint.png)
-[2016.03.30-19.54.27:909][ 11]0.000045 seconds to analyze Texture2D /Game/SmartTVCurved/Texture/Colors-Fingerprint.Colors-Fingerprint
-
-[2016.03.30-19.54.28:028][ 11]LogTexture:Display: Building textures: Colors-Fingerprint (AutoDXT)
-[2016.03.30-19.54.30:463][ 11]LogContentBrowser:Verbose: The content browser source was changed by the sources view to 'None'
-[2016.03.30-19.54.30:464][ 11]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Texture'
-[2016.03.30-19.55.31:496][597]LogActorComponent: UnregisterComponent: (/Engine/Transient.MovementComponent0) Not registered. Aborting.
-[2016.03.30-19.55.32:419][597]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tv-prueba" FILE="../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/tv-prueba_Auto3.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2016.03.30-19.55.33:895][597]LogSavePackage: Save=991.309875ms
-[2016.03.30-19.55.33:895][597]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/tv-prueba_Auto3ACB20585402579D8716A30A4D7494C1A.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/tv-prueba_Auto3.umap'
-[2016.03.30-19.55.34:130][597]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/tv-prueba' took 2.635
-[2016.03.30-19.55.34:130][597]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 2.635
-[2016.03.30-19.55.34:306][597]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A] ([1] browsable assets)...
-[2016.03.30-19.55.34:390][597]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A.Pantalla-Curva-A4A]
-[2016.03.30-19.55.34:390][597]OBJ SavePackage: Finished generating thumbnails for package [/Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A]
-[2016.03.30-19.55.37:559][597]LogSavePackage: Save=2757.838379ms
-[2016.03.30-19.55.37:561][597]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Pantalla-Curva-A4A_Auto3D97A967F409467666A20E5AB25EFA76E.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/SmartTVCurved/Blueprint/Pantalla-Curva-A4A_Auto3.uasset'
-[2016.03.30-19.55.38:092][597]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SmartTVCurved/Texture/tv-screen_Mat] ([1] browsable assets)...
-[2016.03.30-19.56.44:478][597]OBJ SavePackage:     Rendered thumbnail for [Material /Game/SmartTVCurved/Texture/tv-screen_Mat.tv-screen_Mat]
-[2016.03.30-19.56.44:478][597]OBJ SavePackage: Finished generating thumbnails for package [/Game/SmartTVCurved/Texture/tv-screen_Mat]
-[2016.03.30-19.56.47:473][597]LogSavePackage: Save=2479.924316ms
-[2016.03.30-19.56.47:485][597]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/tv-screen_Mat_Auto353ED1782428971D85D04C19B0104FD57.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/SmartTVCurved/Texture/tv-screen_Mat_Auto3.uasset'
-[2016.03.30-19.56.47:773][597]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SmartTVCurved/Texture/Colors-Fingerprint] ([1] browsable assets)...
-[2016.03.30-19.56.47:810][597]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/SmartTVCurved/Texture/Colors-Fingerprint.Colors-Fingerprint]
-[2016.03.30-19.56.47:810][597]OBJ SavePackage: Finished generating thumbnails for package [/Game/SmartTVCurved/Texture/Colors-Fingerprint]
-[2016.03.30-19.56.49:170][597]LogSavePackage: Save=1333.361450ms
-[2016.03.30-19.56.49:172][597]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Colors-Fingerprint_Auto3890EBDD44D680D5549B1BDA75EF71C8B.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/SmartTVCurved/Texture/Colors-Fingerprint_Auto3.uasset'
-[2016.03.30-19.56.49:211][597]LogFileHelpers: Auto-saving content packages took 75.077
-[2016.03.30-19.56.49:286][598]MaterialEditorStats: Info Base pass shader with static lighting: 96 instructions
-[2016.03.30-19.56.49:286][598]MaterialEditorStats: Info Base pass shader with only dynamic lighting: 65 instructions
-[2016.03.30-19.56.49:286][598]MaterialEditorStats: Info Vertex shader: 33 instructions
-[2016.03.30-19.56.49:286][598]MaterialEditorStats: Info Texture samplers: 4/16
-[2016.03.30-19.57.31:891][772]LogMaterial: Missing cached shader map for material Colors-Fingerprint_Mat, compiling. 
-[2016.03.30-20.07.18:591][768]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tv-prueba" FILE="../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/tv-prueba_Auto4.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
-[2016.03.30-20.07.22:838][768]LogSavePackage: Save=3758.447754ms
-[2016.03.30-20.07.22:838][768]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/tv-prueba_Auto44880335746716C9E08FC52844F3CEDFC.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/tv-prueba_Auto4.umap'
-[2016.03.30-20.07.23:048][768]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/tv-prueba' took 6.001
-[2016.03.30-20.07.23:048][768]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 6.001
-[2016.03.30-20.07.23:194][768]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SmartTVCurved/Texture/Colors-Fingerprint_Mat] ([1] browsable assets)...
-[2016.03.30-20.07.23:767][768]OBJ SavePackage:     Rendered thumbnail for [Material /Game/SmartTVCurved/Texture/Colors-Fingerprint_Mat.Colors-Fingerprint_Mat]
-[2016.03.30-20.07.23:767][768]OBJ SavePackage: Finished generating thumbnails for package [/Game/SmartTVCurved/Texture/Colors-Fingerprint_Mat]
-[2016.03.30-20.07.28:885][768]LogSavePackage: Save=4434.276367ms
-[2016.03.30-20.07.28:887][768]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Colors-Fingerprint_Mat_Auto4312058F840230BE9347151AA9A7F228E.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Autosaves/Game/SmartTVCurved/Texture/Colors-Fingerprint_Mat_Auto4.uasset'
-[2016.03.30-20.07.28:964][768]LogFileHelpers: Auto-saving content packages took 5.916
-[2016.03.30-20.14.04:456][717]BlueprintLog: New page: Pre-PIE auto-recompile
-[2016.03.30-20.14.09:101][717]LogPlayLevel: [PIE] Compiling Pantalla-Curva-A4A before PIE...
-[2016.03.30-20.14.15:408][717]LogPlayLevel: PIE:  Blueprint regeneration took 11312 ms (1 blueprints)
-[2016.03.30-20.14.15:880][717]PIE: New page: PIE session: tv-prueba (Mar 30, 2016, 8:14:15 AM)
-[2016.03.30-20.14.16:328][717]LogPlayLevel: PIE: StaticDuplicateObject took: (0.383971s)
-[2016.03.30-20.14.17:833][717]LogPlayLevel: PIE: World Init took: (1.485039s)
-[2016.03.30-20.14.17:848][717]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/tv-prueba.tv-prueba to /Game/UEDPIE_0_tv-prueba.tv-prueba (1.904318s)
-[2016.03.30-20.14.18:689][717]LogWorld: Game class is 'GameMode'
-[2016.03.30-20.14.19:432][717]LogAIModule: Creating AISystem for world tv-prueba
-[2016.03.30-20.14.19:661][717]LogWorld: Bringing World /Game/UEDPIE_0_tv-prueba.tv-prueba up for play (max tick rate 0) at 2016.03.30-14.14.19
-[2016.03.30-20.14.19:773][717]LogWorld: Bringing up level for play took: 0.250946
-[2016.03.30-20.14.20:701][717]PIE: Info Play in editor start time for /Game/UEDPIE_0_tv-prueba 15.881
-[2016.03.30-20.15.14:907][299]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000010DC0B80
-[2016.03.30-20.15.52:051][465]LogMaterial: Missing cached shader map for material Colors-Fingerprint_Mat, compiling. 
-[2016.03.30-20.15.52:054][465]LogMaterial:Warning: Failed to compile Material /Game/SmartTVCurved/Texture/Colors-Fingerprint_Mat.Colors-Fingerprint_Mat for platform PCD3D_SM5, Default Material will be used in game.
-[2016.03.30-20.15.52:054][465]LogMaterial:Warning: 	(Node TextureSample) TextureSample> Missing input texture
-[2016.03.30-20.15.54:261][465]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000106F4C20
-[2016.03.30-20.15.54:414][465]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000002264B060
-[2016.03.30-20.17.00:227][700]LogEditorViewport: Clicking on Actor (LMB): Pantalla-Curva-A4A_C (Pantalla-Curva-A4A2)
-[2016.03.30-20.17.14:423][827]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tv-prueba" FILE="../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Content/tv-prueba.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
-[2016.03.30-20.17.18:163][827]LogSavePackage: Save=949.584534ms
-[2016.03.30-20.17.18:163][827]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/tv-prueba6CCD5598438E181F32987592E8263D9D.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Content/tv-prueba.umap'
-[2016.03.30-20.17.31:316][854]LogSavePackage: Save=4531.968750ms
-[2016.03.30-20.17.31:316][854]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Pantalla-Curva-A4A32F49B9C4674B5B74ED93099A8383C5C.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Content/SmartTVCurved/Blueprint/Pantalla-Curva-A4A.uasset'
-[2016.03.30-20.17.35:830][854]LogSavePackage: Save=3185.096436ms
-[2016.03.30-20.17.35:830][854]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/Despicable_Me-_Banana_Song__50_sec__Tex_Mat6B99C9A944039730A96366A1A40B6744.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Content/SmartTVCurved/Movies/Despicable_Me-_Banana_Song__50_sec__Tex_Mat.uasset'
-[2016.03.30-20.17.36:602][854]LogSavePackage: Save=171.020859ms
-[2016.03.30-20.17.36:602][854]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Saved/tv-screen_MatC5EFD2D0485F3292B0D0E099A3935CE8.tmp' to '../../../../../../Users/3c0z/Documents/Assets/ELECTRONICASSETS/Content/SmartTVCurved/Texture/tv-screen_Mat.uasset'
-[2016.03.30-20.17.42:432][855]Cmd: QUIT_EDITOR
-[2016.03.30-20.17.46:985][855]LogExit: Preparing to exit.
-[2016.03.30-20.17.56:441][855]LogExit: Editor shut down
-[2016.03.30-20.17.56:544][855]LogExit: Transaction tracking system shut down
-[2016.03.30-20.17.56:664][855]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F046B60
-[2016.03.30-20.17.56:833][855]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000F045EE0
-[2016.03.30-20.17.56:848][855]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000019AA3BA0
-[2016.03.30-20.18.10:077][855]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001980C900
-[2016.03.30-20.18.10:077][855]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C074860
-[2016.03.30-20.18.10:077][855]LogExit: Object subsystem successfully closed.
-[2016.03.30-20.18.16:761][855]LogModuleManager: Shutting down and abandoning module MaterialEditor (179)
-[2016.03.30-20.18.16:762][855]LogModuleManager: Shutting down and abandoning module TextureEditor (178)
-[2016.03.30-20.18.16:906][855]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
-[2016.03.30-20.18.16:976][855]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
-[2016.03.30-20.18.16:976][855]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
-[2016.03.30-20.18.16:976][855]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
-[2016.03.30-20.18.16:976][855]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
-[2016.03.30-20.18.17:078][855]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
-[2016.03.30-20.18.17:135][855]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
-[2016.03.30-20.18.17:158][855]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
-[2016.03.30-20.18.17:409][855]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
-[2016.03.30-20.18.17:429][855]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
-[2016.03.30-20.18.17:429][855]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
-[2016.03.30-20.18.17:430][855]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
-[2016.03.30-20.18.17:430][855]LogModuleManager: Shutting down and abandoning module BspMode (165)
-[2016.03.30-20.18.17:430][855]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
-[2016.03.30-20.18.17:430][855]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
-[2016.03.30-20.18.17:476][855]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
-[2016.03.30-20.18.17:476][855]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
-[2016.03.30-20.18.17:483][855]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
-[2016.03.30-20.18.17:487][855]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
-[2016.03.30-20.18.17:649][855]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
-[2016.03.30-20.18.17:744][855]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
-[2016.03.30-20.18.17:871][855]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
-[2016.03.30-20.18.17:890][855]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
-[2016.03.30-20.18.17:890][855]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
-[2016.03.30-20.18.17:919][855]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
-[2016.03.30-20.18.17:920][855]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
-[2016.03.30-20.18.17:920][855]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
-[2016.03.30-20.18.17:920][855]LogModuleManager: Shutting down and abandoning module XmlParser (150)
-[2016.03.30-20.18.17:963][855]LogModuleManager: Shutting down and abandoning module Blutility (149)
-[2016.03.30-20.18.17:963][855]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
-[2016.03.30-20.18.17:985][855]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
-[2016.03.30-20.18.17:985][855]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
-[2016.03.30-20.18.18:229][855]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
-[2016.03.30-20.18.18:229][855]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
-[2016.03.30-20.18.18:229][855]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
-[2016.03.30-20.18.18:286][855]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
-[2016.03.30-20.18.18:286][855]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
-[2016.03.30-20.18.18:375][855]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
-[2016.03.30-20.18.18:404][855]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
-[2016.03.30-20.18.18:413][855]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
-[2016.03.30-20.18.18:474][855]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
-[2016.03.30-20.18.18:489][855]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
-[2016.03.30-20.18.18:490][855]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
-[2016.03.30-20.18.18:490][855]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
-[2016.03.30-20.18.18:532][855]LogModuleManager: Shutting down and abandoning module AutomationController (133)
-[2016.03.30-20.18.18:636][855]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
-[2016.03.30-20.18.18:673][855]LogModuleManager: Shutting down and abandoning module Layers (131)
-[2016.03.30-20.18.18:767][855]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
-[2016.03.30-20.18.18:767][855]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
-[2016.03.30-20.18.18:767][855]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
-[2016.03.30-20.18.18:821][855]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
-[2016.03.30-20.18.19:714][855]LogModuleManager: Shutting down and abandoning module Persona (126)
-[2016.03.30-20.18.19:851][855]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
-[2016.03.30-20.18.19:875][855]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
-[2016.03.30-20.18.20:030][855]LogModuleManager: Shutting down and abandoning module Kismet (123)
-[2016.03.30-20.18.20:059][855]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
-[2016.03.30-20.18.20:081][855]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
-[2016.03.30-20.18.20:105][855]LogModuleManager: Shutting down and abandoning module Toolbox (120)
-[2016.03.30-20.18.20:105][855]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
-[2016.03.30-20.18.20:123][855]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
-[2016.03.30-20.18.20:252][855]LogModuleManager: Shutting down and abandoning module OutputLog (117)
-[2016.03.30-20.18.20:268][855]LogModuleManager: Shutting down and abandoning module GammaUI (116)
-[2016.03.30-20.18.20:335][855]LogModuleManager: Shutting down and abandoning module Documentation (115)
-[2016.03.30-20.18.20:362][855]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
-[2016.03.30-20.18.20:362][855]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
-[2016.03.30-20.18.20:406][855]LogModuleManager: Shutting down and abandoning module HTTP (112)
-[2016.03.30-20.18.20:428][855]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
-[2016.03.30-20.18.20:428][855]LogModuleManager: Shutting down and abandoning module Analytics (110)
-[2016.03.30-20.18.20:428][855]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
-[2016.03.30-20.18.20:440][855]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
-[2016.03.30-20.18.20:440][855]LogModuleManager: Shutting down and abandoning module AIModule (107)
-[2016.03.30-20.18.20:461][855]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
-[2016.03.30-20.18.20:689][855]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
-[2016.03.30-20.18.20:714][855]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
-[2016.03.30-20.18.20:721][855]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
-[2016.03.30-20.18.20:721][855]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
-[2016.03.30-20.18.20:721][855]LogModuleManager: Shutting down and abandoning module CableComponent (101)
-[2016.03.30-20.18.20:721][855]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
-[2016.03.30-20.18.20:754][855]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
-[2016.03.30-20.18.20:772][855]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
-[2016.03.30-20.18.20:772][855]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
-[2016.03.30-20.18.20:827][855]LogModuleManager: Shutting down and abandoning module MainFrame (96)
-[2016.03.30-20.18.20:837][855]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
-[2016.03.30-20.18.20:888][855]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
-[2016.03.30-20.18.20:941][855]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
-[2016.03.30-20.18.21:036][855]LogModuleManager: Shutting down and abandoning module HotReload (92)
-[2016.03.30-20.18.21:066][855]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
-[2016.03.30-20.18.21:069][855]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
-[2016.03.30-20.18.21:069][855]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
-[2016.03.30-20.18.21:094][855]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
-[2016.03.30-20.18.21:122][855]LogModuleManager: Shutting down and abandoning module SourceControl (87)
-[2016.03.30-20.18.21:143][855]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
-[2016.03.30-20.18.21:168][855]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
-[2016.03.30-20.18.21:168][855]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
-[2016.03.30-20.18.21:168][855]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
-[2016.03.30-20.18.21:168][855]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
-[2016.03.30-20.18.21:225][855]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
-[2016.03.30-20.18.21:331][855]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
-[2016.03.30-20.18.21:378][855]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
-[2016.03.30-20.18.21:505][855]LogModuleManager: Shutting down and abandoning module Paper2D (78)
-[2016.03.30-20.18.21:569][855]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
-[2016.03.30-20.18.21:722][855]LogModuleManager: Shutting down and abandoning module Media (76)
-[2016.03.30-20.18.21:722][855]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
-[2016.03.30-20.18.21:741][855]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
-[2016.03.30-20.18.21:741][855]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
-[2016.03.30-20.18.21:826][855]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
-[2016.03.30-20.18.21:855][855]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
-[2016.03.30-20.18.21:873][855]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
-[2016.03.30-20.18.21:943][855]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
-[2016.03.30-20.18.22:147][855]LogModuleManager: Shutting down and abandoning module MessageLog (68)
-[2016.03.30-20.18.22:147][855]LogModuleManager: Shutting down and abandoning module Sequencer (67)
-[2016.03.30-20.18.22:266][855]LogModuleManager: Shutting down and abandoning module AssetTools (66)
-[2016.03.30-20.18.22:392][855]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
-[2016.03.30-20.18.22:459][855]LogModuleManager: Shutting down and abandoning module UMG (64)
-[2016.03.30-20.18.22:580][855]LogModuleManager: Shutting down and abandoning module Slate (63)
-[2016.03.30-20.18.22:580][855]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
-[2016.03.30-20.18.22:974][855]LogModuleManager: Shutting down and abandoning module SessionServices (61)
-[2016.03.30-20.18.22:974][855]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
-[2016.03.30-20.18.22:983][855]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
-[2016.03.30-20.18.22:992][855]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
-[2016.03.30-20.18.22:992][855]LogModuleManager: Shutting down and abandoning module Networking (56)
-[2016.03.30-20.18.23:005][855]LogModuleManager: Shutting down and abandoning module Core (55)
-[2016.03.30-20.18.23:005][855]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
-[2016.03.30-20.18.23:005][855]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
-[2016.03.30-20.18.23:014][855]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
-[2016.03.30-20.18.23:049][855]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
-[2016.03.30-20.18.23:238][855]LogDerivedDataCache: Shutdown
-[2016.03.30-20.18.23:238][855]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
-[2016.03.30-20.18.23:294][855]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
-[2016.03.30-20.18.23:352][855]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
-[2016.03.30-20.18.23:376][855]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
-[2016.03.30-20.18.23:385][855]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
-[2016.03.30-20.18.23:385][855]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
-[2016.03.30-20.18.23:385][855]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
-[2016.03.30-20.18.23:385][855]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
-[2016.03.30-20.18.23:385][855]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
-[2016.03.30-20.18.23:385][855]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
-[2016.03.30-20.18.23:408][855]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
-[2016.03.30-20.18.23:408][855]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
-[2016.03.30-20.18.23:408][855]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
-[2016.03.30-20.18.23:408][855]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
-[2016.03.30-20.18.23:449][855]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
-[2016.03.30-20.18.23:456][855]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
-[2016.03.30-20.18.23:456][855]LogModuleManager: Shutting down and abandoning module Messaging (34)
-[2016.03.30-20.18.23:456][855]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
-[2016.03.30-20.18.23:485][855]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
-[2016.03.30-20.18.23:517][855]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
-[2016.03.30-20.18.23:517][855]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
-[2016.03.30-20.18.23:517][855]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
-[2016.03.30-20.18.23:520][855]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
-[2016.03.30-20.18.23:524][855]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
-[2016.03.30-20.18.23:525][855]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
-[2016.03.30-20.18.23:525][855]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
-[2016.03.30-20.18.23:531][855]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
-[2016.03.30-20.18.23:544][855]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
-[2016.03.30-20.18.23:552][855]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
-[2016.03.30-20.18.23:553][855]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
-[2016.03.30-20.18.23:557][855]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
-[2016.03.30-20.18.23:626][855]LogModuleManager: Shutting down and abandoning module InputCore (19)
-[2016.03.30-20.18.23:626][855]LogModuleManager: Shutting down and abandoning module Settings (18)
-[2016.03.30-20.18.23:639][855]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
-[2016.03.30-20.18.23:639][855]LogModuleManager: Shutting down and abandoning module OculusRift (15)
-[2016.03.30-20.18.23:691][855]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
-[2016.03.30-20.18.23:700][855]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
-[2016.03.30-20.18.23:726][855]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
-[2016.03.30-20.18.23:726][855]LogModuleManager: Shutting down and abandoning module Landscape (11)
-[2016.03.30-20.18.23:759][855]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
-[2016.03.30-20.18.24:661][855]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
-[2016.03.30-20.18.24:692][855]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
-[2016.03.30-20.18.24:692][855]LogModuleManager: Shutting down and abandoning module Renderer (7)
-[2016.03.30-20.18.24:692][855]LogModuleManager: Shutting down and abandoning module Engine (6)
-[2016.03.30-20.18.24:692][855]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
-[2016.03.30-20.18.24:692][855]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
-[2016.03.30-20.18.24:734][855]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
-[2016.03.30-20.18.24:792][855]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
-[2016.03.30-20.18.24:800][855]LogModuleManager: Shutting down and abandoning module PakFile (1)
-[2016.03.30-20.18.24:892][855]LogExit: Exiting.
-[2016.03.30-20.18.25:199][855]Log file closed, 03/30/16 14:18:25
+[2016.04.03-01.09.47:934][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.04.03-01.09.54:734][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.03-01.09.56:605][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.03-01.09.56:810][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.04.03-01.09.56:975][  0]LogDerivedDataCache: Loaded boot cache 0.17s 39MB C:/Users/3c0z/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2016.04.03-01.09.56:975][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/3c0z/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc
+[2016.04.03-01.09.56:976][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/3c0z/Documents/GitHub/UnrealAssets/ELECTRONICASSETS/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.04.03-01.09.56:976][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.04.03-01.09.57:321][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.04.03-01.09.57:333][  0]LogDerivedDataCache: Using Local data cache path C:/Users/3c0z/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.04.03-01.09.58:315][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.04.03-01.09.58:315][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.04.03-01.09.59:393][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.04.03-01.09.59:645][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf'
+[2016.04.03-01.10.03:004][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.04.03-01.10.03:447][  0]SourceControl: Info Source control is disabled
+[2016.04.03-01.10.03:447][  0]SourceControl: Info Source control is disabled
+[2016.04.03-01.10.03:447][  0]SourceControl: Info Source control is disabled
+[2016.04.03-01.10.03:447][  0]LogSourceControl: RunCommandInternalRaw: 'git version'
+[2016.04.03-01.10.03:447][  0]LogSourceControl: RunCommandInternalRaw: ExecProcess ReturnCode=2 OutResults=''
+[2016.04.03-01.10.03:477][  0]SourceControl: Info Source control is disabled
+[2016.04.03-01.10.04:048][  0]LogObj: 24232 objects as part of root set at end of initial load.
+[2016.04.03-01.10.04:048][  0]LogUObjectAllocator: 5137176 out of 0 bytes used by permanent object pool.
+[2016.04.03-01.10.04:249][  0]LogEngine: Initializing Engine...
+[2016.04.03-01.10.06:624][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.04.03-01.10.06:697][  0]LogInit: FAudioDevice initialized.
+[2016.04.03-01.10.06:786][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.04.03-01.10.06:857][  0]LogDerivedDataCache: Saved boot cache 0.07s 39MB C:/Users/3c0z/AppData/Local/UnrealEngine/4.7/DerivedDataCache/Boot.ddc.
+[2016.04.03-01.10.06:886][  0]LogInit: Texture streaming: Enabled
+[2016.04.03-01.10.07:156][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.04.03-01.10.07:156][  0]LogAnalytics: ET APIKey = Rocket.Release. APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2016.04.03-01.10.07:156][  0]LogAnalytics: ET APIKey = Rocket.Release. DataRouterUploadURL = https://datarouter-public-service-gamedev.ol.epicgames.net/datarouter/api/v1/public/data. AppVersion = 4.7.6-2513093+++depot+UE4-Releases+4.7
+[2016.04.03-01.10.07:156][  0]LogAnalytics: SetUserId f8d463004448e9bf9238c395a56aa488|6b2d3cb90e4040169396666e7dda91ad|be6a12fa-584f-40e9-9224-deb3c37dd44e
+[2016.04.03-01.10.07:157][  0]LogAnalytics: AnalyticsET::StartSession [Rocket.Release]
+[2016.04.03-01.10.07:212][  0]LogInit: Transaction tracking system initialized
+[2016.04.03-01.10.07:817][  0]BlueprintLog: New page: Editor Load
+[2016.04.03-01.10.07:936][  0]LogAssetRegistry: FAssetRegistry took 0.0189 seconds to start up
+[2016.04.03-01.10.07:938][  0]LogDirectoryWatcher:Warning: Failed to begin reading directory changes for ../../../Engine/Plugins/Experimental/CharacterAI/Content/. Error: 0
+[2016.04.03-01.10.11:208][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.03-01.10.14:466][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.04.03-01.10.16:154][  0]LogLinker:Warning: Asset '../../../Engine/Content/Tutorial/Mobile/SettingUpAndroidTutorial.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.04.03-01.10.16:458][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Regular.ttf'
+[2016.04.03-01.10.16:460][  0]LogSlate:Warning: Failed to load font data from '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Bold.ttf'
+[2016.04.03-01.10.16:479][  0]LogConsoleResponse:Display: 
+[2016.04.03-01.10.17:633][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.04.03-01.10.18:785][  0]SourceControl: Info Source control is disabled
+[2016.04.03-01.10.18:785][  0]Cmd: MAP LOAD FILE="../../../Engine/Content/Maps/Templates/Template_Default.umap" TEMPLATE=1 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.03-01.10.18:790][  0]LightingResults: New page: Lighting Build
+[2016.04.03-01.10.18:928][  0]MapCheck: New page: Map Check
+[2016.04.03-01.10.18:928][  0]LightingResults: New page: Lighting Build
+[2016.04.03-01.10.19:019][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x0000000016000D60
+[2016.04.03-01.10.23:996][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.03-01.10.24:010][  0]LogAIModule: Creating AISystem for world Untitled_1
+[2016.04.03-01.10.24:012][  0]Cmd: MAP CHECKDEP
+[2016.04.03-01.10.24:013][  0]MapCheck: New page: Untitled_1 - Apr 2, 2016, 1:10:24 PM
+[2016.04.03-01.10.24:455][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 442.113ms to complete.
+[2016.04.03-01.10.24:456][  0]LogFileHelpers: Loading map 'Template_Default' took 5.671
+[2016.04.03-01.10.25:255][  0]LogCollectionManager: Loaded 0 collections in 0.006268 seconds
+[2016.04.03-01.10.25:325][  0]LogContentBrowser: Native class hierarchy populated in 0.0671 seconds. Added 1696 classes and 261 folders.
+[2016.04.03-01.10.25:533][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0051 seconds. Added 1 classes and 2 folders.
+[2016.04.03-01.10.26:002][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.04.03-01.10.26:044][  0]LogSlate:Warning: Failed to load font data from 'Veranda'
+[2016.04.03-01.10.26:063][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.04.03-01.10.26:137][  0]LogLoad: Full Startup: 42.59 seconds (BP compile: 0.68 seconds)
+[2016.04.03-01.10.26:236][  0]LogContentBrowser:Verbose: The content browser source was changed by the sources view to '/Game/SmartTVCurved/Texture'
+[2016.04.03-01.10.26:887][  0]LogRenderer:Warning: Reallocating scene render targets to support 32x32 (Frame:2).
+[2016.04.03-01.10.27:459][  0]LogRenderer:Warning: Reallocating scene render targets to support 1056x560 (Frame:3).
+[2016.04.03-01.10.28:441][ 12]LogAssetRegistry: Asset discovery search completed in 20.5239 seconds
+[2016.04.03-01.10.39:881][450]Cmd: MAP LOAD FILE="../../../../../../Users/3c0z/Documents/GitHub/UnrealAssets/ELECTRONICASSETS/Content/tv-prueba.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.04.03-01.10.39:951][450]LightingResults: New page: Lighting Build
+[2016.04.03-01.10.40:099][450]LoadErrors: New page: Loading map: tv-prueba.umap
+[2016.04.03-01.10.40:111][450]MapCheck: New page: Map Check
+[2016.04.03-01.10.40:111][450]LightingResults: New page: Lighting Build
+[2016.04.03-01.10.40:150][450]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000C365F80
+[2016.04.03-01.10.44:444][450]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.04.03-01.10.44:459][450]LogAIModule: Creating AISystem for world tv-prueba
+[2016.04.03-01.10.44:552][450]Cmd: MAP CHECKDEP
+[2016.04.03-01.10.44:552][450]MapCheck: New page: tv-prueba - Apr 2, 2016, 1:10:44 PM
+[2016.04.03-01.10.44:804][450]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 252.035ms to complete.
+[2016.04.03-01.10.44:804][450]LogFileHelpers: Loading map 'tv-prueba' took 4.930
+[2016.04.03-01.10.51:314][655]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2016.04.03-01.10.53:196][698]Cmd: DELETE
+[2016.04.03-01.10.53:196][698]Cmd: ACTOR DELETE
+[2016.04.03-01.10.53:240][698]LogEditorActor: Deleted Actor: StaticMeshActor
+[2016.04.03-01.10.53:305][698]LogEditorActor: Deleted 1 Actors (0.065 secs)
+[2016.04.03-01.10.58:875][902]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/tv-prueba" FILE="../../../../../../Users/3c0z/Documents/GitHub/UnrealAssets/ELECTRONICASSETS/Content/tv-prueba.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2016.04.03-01.10.59:296][902]LogSavePackage: Save=224.286179ms
+[2016.04.03-01.10.59:296][902]LogSavePackage: Moving '../../../../../../Users/3c0z/Documents/GitHub/UnrealAssets/ELECTRONICASSETS/Saved/tv-prueba700B486645C5620568AEA8B036EE4F5B.tmp' to '../../../../../../Users/3c0z/Documents/GitHub/UnrealAssets/ELECTRONICASSETS/Content/tv-prueba.umap'
+[2016.04.03-01.10.59:411][902]LogFileHelpers: Saving map 'tv-prueba' took 0.891
+[2016.04.03-01.11.03:245][  0]Cmd: QUIT_EDITOR
+[2016.04.03-01.11.04:139][  0]LogExit: Preparing to exit.
+[2016.04.03-01.11.05:241][  0]LogExit: Editor shut down
+[2016.04.03-01.11.05:242][  0]LogExit: Transaction tracking system shut down
+[2016.04.03-01.11.05:249][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FEBB6A0
+[2016.04.03-01.11.05:250][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000000FEB9120
+[2016.04.03-01.11.05:252][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000000001A450860
+[2016.04.03-01.11.05:252][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x00000000187C60C0
+[2016.04.03-01.11.05:388][  0]LogExit: Object subsystem successfully closed.
+[2016.04.03-01.11.05:509][  0]LogModuleManager: Shutting down and abandoning module CrashTracker (177)
+[2016.04.03-01.11.05:509][  0]LogModuleManager: Shutting down and abandoning module SuperSearch (176)
+[2016.04.03-01.11.05:509][  0]LogModuleManager: Shutting down and abandoning module SceneOutliner (175)
+[2016.04.03-01.11.05:509][  0]LogModuleManager: Shutting down and abandoning module EditorWidgets (174)
+[2016.04.03-01.11.05:510][  0]LogModuleManager: Shutting down and abandoning module CollectionManager (173)
+[2016.04.03-01.11.05:522][  0]LogModuleManager: Shutting down and abandoning module StatsViewer (172)
+[2016.04.03-01.11.05:522][  0]LogModuleManager: Shutting down and abandoning module FoliageEdit (171)
+[2016.04.03-01.11.05:522][  0]LogModuleManager: Shutting down and abandoning module LandscapeEditor (170)
+[2016.04.03-01.11.05:522][  0]LogModuleManager: Shutting down and abandoning module MeshPaint (169)
+[2016.04.03-01.11.05:522][  0]LogModuleManager: Shutting down and abandoning module ActorPickerMode (168)
+[2016.04.03-01.11.05:522][  0]LogModuleManager: Shutting down and abandoning module GeometryMode (167)
+[2016.04.03-01.11.05:522][  0]LogModuleManager: Shutting down and abandoning module TextureAlignMode (166)
+[2016.04.03-01.11.05:522][  0]LogModuleManager: Shutting down and abandoning module BspMode (165)
+[2016.04.03-01.11.05:522][  0]LogModuleManager: Shutting down and abandoning module PlacementMode (164)
+[2016.04.03-01.11.05:522][  0]LogModuleManager: Shutting down and abandoning module AutomationWorker (163)
+[2016.04.03-01.11.05:523][  0]LogModuleManager: Shutting down and abandoning module CharacterAI (162)
+[2016.04.03-01.11.05:523][  0]LogModuleManager: Shutting down and abandoning module SmartSnapping (161)
+[2016.04.03-01.11.05:523][  0]LogModuleManager: Shutting down and abandoning module ViewportSnapping (160)
+[2016.04.03-01.11.05:523][  0]LogModuleManager: Shutting down and abandoning module LogVisualizer (159)
+[2016.04.03-01.11.05:523][  0]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (158)
+[2016.04.03-01.11.05:523][  0]LogModuleManager: Shutting down and abandoning module IntroTutorials (157)
+[2016.04.03-01.11.05:523][  0]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (156)
+[2016.04.03-01.11.05:523][  0]LogModuleManager: Shutting down and abandoning module HardwareTargeting (155)
+[2016.04.03-01.11.05:523][  0]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (154)
+[2016.04.03-01.11.05:523][  0]LogModuleManager: Shutting down and abandoning module UndoHistory (153)
+[2016.04.03-01.11.05:523][  0]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (152)
+[2016.04.03-01.11.05:523][  0]LogModuleManager: Shutting down and abandoning module UserFeedback (151)
+[2016.04.03-01.11.05:523][  0]LogModuleManager: Shutting down and abandoning module XmlParser (150)
+[2016.04.03-01.11.05:524][  0]LogModuleManager: Shutting down and abandoning module Blutility (149)
+[2016.04.03-01.11.05:524][  0]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (148)
+[2016.04.03-01.11.05:524][  0]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (147)
+[2016.04.03-01.11.05:524][  0]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (146)
+[2016.04.03-01.11.06:255][  0]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (145)
+[2016.04.03-01.11.06:255][  0]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (144)
+[2016.04.03-01.11.06:255][  0]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (143)
+[2016.04.03-01.11.06:255][  0]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (142)
+[2016.04.03-01.11.06:255][  0]LogModuleManager: Shutting down and abandoning module InputBindingEditor (141)
+[2016.04.03-01.11.06:255][  0]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (140)
+[2016.04.03-01.11.06:255][  0]LogModuleManager: Shutting down and abandoning module SettingsEditor (139)
+[2016.04.03-01.11.06:255][  0]LogModuleManager: Shutting down and abandoning module ProjectLauncher (138)
+[2016.04.03-01.11.06:255][  0]LogModuleManager: Shutting down and abandoning module SessionFrontend (137)
+[2016.04.03-01.11.06:255][  0]LogModuleManager: Shutting down and abandoning module ProfilerClient (136)
+[2016.04.03-01.11.06:255][  0]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (135)
+[2016.04.03-01.11.06:256][  0]LogModuleManager: Shutting down and abandoning module DeviceManager (134)
+[2016.04.03-01.11.06:256][  0]LogModuleManager: Shutting down and abandoning module AutomationController (133)
+[2016.04.03-01.11.06:256][  0]LogModuleManager: Shutting down and abandoning module AutomationWindow (132)
+[2016.04.03-01.11.06:256][  0]LogModuleManager: Shutting down and abandoning module Layers (131)
+[2016.04.03-01.11.06:256][  0]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (130)
+[2016.04.03-01.11.06:256][  0]LogModuleManager: Shutting down and abandoning module DetailCustomizations (129)
+[2016.04.03-01.11.06:256][  0]LogModuleManager: Shutting down and abandoning module PackagesDialog (128)
+[2016.04.03-01.11.06:256][  0]LogModuleManager: Shutting down and abandoning module AssetRegistry (127)
+[2016.04.03-01.11.06:403][  0]LogModuleManager: Shutting down and abandoning module Persona (126)
+[2016.04.03-01.11.06:403][  0]LogModuleManager: Shutting down and abandoning module SlateReflector (125)
+[2016.04.03-01.11.06:403][  0]LogModuleManager: Shutting down and abandoning module LevelEditor (124)
+[2016.04.03-01.11.06:406][  0]LogModuleManager: Shutting down and abandoning module Kismet (123)
+[2016.04.03-01.11.06:406][  0]LogModuleManager: Shutting down and abandoning module GraphEditor (122)
+[2016.04.03-01.11.06:407][  0]LogModuleManager: Shutting down and abandoning module ClassViewer (121)
+[2016.04.03-01.11.06:407][  0]LogModuleManager: Shutting down and abandoning module Toolbox (120)
+[2016.04.03-01.11.06:407][  0]LogModuleManager: Shutting down and abandoning module ModuleUI (119)
+[2016.04.03-01.11.06:407][  0]LogModuleManager: Shutting down and abandoning module MovieSceneTools (118)
+[2016.04.03-01.11.06:407][  0]LogModuleManager: Shutting down and abandoning module OutputLog (117)
+[2016.04.03-01.11.06:407][  0]LogModuleManager: Shutting down and abandoning module GammaUI (116)
+[2016.04.03-01.11.06:407][  0]LogModuleManager: Shutting down and abandoning module Documentation (115)
+[2016.04.03-01.11.06:407][  0]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (114)
+[2016.04.03-01.11.06:407][  0]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (113)
+[2016.04.03-01.11.06:407][  0]LogModuleManager: Shutting down and abandoning module HTTP (112)
+[2016.04.03-01.11.06:407][  0]LogModuleManager: Shutting down and abandoning module AnalyticsET (111)
+[2016.04.03-01.11.06:407][  0]LogModuleManager: Shutting down and abandoning module Analytics (110)
+[2016.04.03-01.11.06:407][  0]LogModuleManager: Shutting down and abandoning module AITestSuite (109)
+[2016.04.03-01.11.06:407][  0]LogModuleManager: Shutting down and abandoning module GameplayDebugger (108)
+[2016.04.03-01.11.06:407][  0]LogModuleManager: Shutting down and abandoning module AIModule (107)
+[2016.04.03-01.11.06:407][  0]LogModuleManager: Shutting down and abandoning module ProfilerService (106)
+[2016.04.03-01.11.06:566][  0]LogModuleManager: Shutting down and abandoning module TaskGraph (105)
+[2016.04.03-01.11.06:566][  0]LogModuleManager: Shutting down and abandoning module SlateRemote (104)
+[2016.04.03-01.11.06:566][  0]LogModuleManager: Shutting down and abandoning module ScriptEditorPlugin (103)
+[2016.04.03-01.11.06:566][  0]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (102)
+[2016.04.03-01.11.06:566][  0]LogModuleManager: Shutting down and abandoning module CableComponent (101)
+[2016.04.03-01.11.06:566][  0]LogModuleManager: Shutting down and abandoning module MessagingDebugger (100)
+[2016.04.03-01.11.06:566][  0]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (99)
+[2016.04.03-01.11.06:566][  0]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (98)
+[2016.04.03-01.11.06:566][  0]LogModuleManager: Shutting down and abandoning module PluginsEditor (97)
+[2016.04.03-01.11.06:566][  0]LogModuleManager: Shutting down and abandoning module MainFrame (96)
+[2016.04.03-01.11.06:566][  0]LogModuleManager: Shutting down and abandoning module EpicSurvey (95)
+[2016.04.03-01.11.06:566][  0]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2016.04.03-01.11.06:566][  0]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2016.04.03-01.11.06:567][  0]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2016.04.03-01.11.06:567][  0]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2016.04.03-01.11.06:568][  0]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2016.04.03-01.11.06:568][  0]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2016.04.03-01.11.06:568][  0]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (88)
+[2016.04.03-01.11.06:568][  0]LogModuleManager: Shutting down and abandoning module SourceControl (87)
+[2016.04.03-01.11.06:568][  0]LogModuleManager: Shutting down and abandoning module GitSourceControl (86)
+[2016.04.03-01.11.06:568][  0]LogModuleManager: Shutting down and abandoning module BlankPlugin (85)
+[2016.04.03-01.11.06:568][  0]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (84)
+[2016.04.03-01.11.06:568][  0]LogModuleManager: Shutting down and abandoning module PaperJsonImporter (83)
+[2016.04.03-01.11.06:568][  0]LogModuleManager: Shutting down and abandoning module ContentBrowser (82)
+[2016.04.03-01.11.06:570][  0]LogModuleManager: Shutting down and abandoning module Paper2DEditor (81)
+[2016.04.03-01.11.06:570][  0]LogModuleManager: Shutting down and abandoning module ScriptPlugin (80)
+[2016.04.03-01.11.06:570][  0]LogModuleManager: Shutting down and abandoning module UdpMessaging (79)
+[2016.04.03-01.11.06:670][  0]LogModuleManager: Shutting down and abandoning module Paper2D (78)
+[2016.04.03-01.11.06:670][  0]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (77)
+[2016.04.03-01.11.06:674][  0]LogModuleManager: Shutting down and abandoning module Media (76)
+[2016.04.03-01.11.06:674][  0]LogModuleManager: Shutting down and abandoning module WmfMedia (75)
+[2016.04.03-01.11.06:675][  0]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2016.04.03-01.11.06:675][  0]LogModuleManager: Shutting down and abandoning module PropertyEditor (73)
+[2016.04.03-01.11.06:675][  0]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (72)
+[2016.04.03-01.11.06:675][  0]LogModuleManager: Shutting down and abandoning module FunctionalTesting (71)
+[2016.04.03-01.11.06:675][  0]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (70)
+[2016.04.03-01.11.06:675][  0]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (69)
+[2016.04.03-01.11.06:675][  0]LogModuleManager: Shutting down and abandoning module MessageLog (68)
+[2016.04.03-01.11.06:675][  0]LogModuleManager: Shutting down and abandoning module Sequencer (67)
+[2016.04.03-01.11.06:675][  0]LogModuleManager: Shutting down and abandoning module AssetTools (66)
+[2016.04.03-01.11.06:675][  0]LogModuleManager: Shutting down and abandoning module UMGEditor (65)
+[2016.04.03-01.11.06:676][  0]LogModuleManager: Shutting down and abandoning module UMG (64)
+[2016.04.03-01.11.06:676][  0]LogModuleManager: Shutting down and abandoning module Slate (63)
+[2016.04.03-01.11.06:676][  0]LogModuleManager: Shutting down and abandoning module EditorStyle (62)
+[2016.04.03-01.11.06:689][  0]LogModuleManager: Shutting down and abandoning module SessionServices (61)
+[2016.04.03-01.11.06:689][  0]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (60)
+[2016.04.03-01.11.06:689][  0]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (59)
+[2016.04.03-01.11.06:689][  0]LogModuleManager: Shutting down and abandoning module XAudio2 (58)
+[2016.04.03-01.11.06:689][  0]LogModuleManager: Shutting down and abandoning module Networking (56)
+[2016.04.03-01.11.06:689][  0]LogModuleManager: Shutting down and abandoning module Core (55)
+[2016.04.03-01.11.06:689][  0]LogModuleManager: Shutting down and abandoning module KismetCompiler (54)
+[2016.04.03-01.11.06:689][  0]LogModuleManager: Shutting down and abandoning module PhysXFormats (53)
+[2016.04.03-01.11.06:689][  0]LogModuleManager: Shutting down and abandoning module MeshUtilities (52)
+[2016.04.03-01.11.06:689][  0]LogModuleManager: Shutting down and abandoning module DerivedDataCache (51)
+[2016.04.03-01.11.06:805][  0]LogDerivedDataCache: Shutdown
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (50)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (49)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (48)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (47)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (46)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (45)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (44)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module ImageWrapper (43)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (42)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (41)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (40)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (39)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (38)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (37)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (36)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (35)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module Messaging (34)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (33)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (32)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (31)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (30)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (29)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module Android_ES31TargetPlatform (28)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (27)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (26)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (25)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (24)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (23)
+[2016.04.03-01.11.06:805][  0]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (22)
+[2016.04.03-01.11.06:806][  0]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (21)
+[2016.04.03-01.11.06:806][  0]LogModuleManager: Shutting down and abandoning module TargetPlatform (20)
+[2016.04.03-01.11.06:806][  0]LogModuleManager: Shutting down and abandoning module InputCore (19)
+[2016.04.03-01.11.06:806][  0]LogModuleManager: Shutting down and abandoning module Settings (18)
+[2016.04.03-01.11.06:806][  0]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (16)
+[2016.04.03-01.11.06:806][  0]LogModuleManager: Shutting down and abandoning module OculusRift (15)
+[2016.04.03-01.11.06:806][  0]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (14)
+[2016.04.03-01.11.06:806][  0]LogModuleManager: Shutting down and abandoning module TextureCompressor (13)
+[2016.04.03-01.11.06:806][  0]LogModuleManager: Shutting down and abandoning module ShaderCore (12)
+[2016.04.03-01.11.06:806][  0]LogModuleManager: Shutting down and abandoning module Landscape (11)
+[2016.04.03-01.11.06:806][  0]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (10)
+[2016.04.03-01.11.06:813][  0]LogModuleManager: Shutting down and abandoning module OpenGLDrv (9)
+[2016.04.03-01.11.06:813][  0]LogModuleManager: Shutting down and abandoning module D3D11RHI (8)
+[2016.04.03-01.11.06:813][  0]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.04.03-01.11.06:813][  0]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.04.03-01.11.06:813][  0]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.04.03-01.11.06:813][  0]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.04.03-01.11.06:813][  0]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.04.03-01.11.06:813][  0]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.04.03-01.11.06:813][  0]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.04.03-01.11.06:814][  0]LogExit: Exiting.
+[2016.04.03-01.11.06:898][  0]Log file closed, 04/02/16 19:11:06
